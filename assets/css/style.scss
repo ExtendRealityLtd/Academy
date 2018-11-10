@@ -1,0 +1,68 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$font-stack: roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$color-pig-pink: #F3AEAE;
+$color-pig-bright: #FFBDBD;
+$color-pig-shades: #D69A9A;
+$color-pig-swill: #936D6D;
+$color-pig-night: #000000;
+$color-pig-storm: #5B5B5B;
+$color-pig-cloud: #E5E3E3;
+$color-pig-day: #FAFAFA;
+$color-pig-sky: #66A9D6;
+$color-master-background: #FFFFFF;
+
+body {
+  background-image: none;
+  background-color: $color-pig-day;
+  font: 14px/22px $font-stack;
+
+  a {
+    color: $color-pig-sky;
+  }
+
+  blockquote {
+    border-left-color: $color-pig-pink;
+  }
+
+  ul {
+    list-style-image: none;
+  }
+
+  header {
+    background-image: none;
+    background-color: $color-pig-storm;
+
+    h1 {
+      font: 40px/48px $font-stack;
+      font-weight: 600;
+      text-shadow: none;
+    }
+  }
+
+  #banner {
+    right: 0;
+    margin-right: 0px;
+    background-color: $color-pig-pink;
+    border: none;
+
+    .fork {
+      background-color: $color-pig-day;
+    }
+
+    .button {
+      border-color: $color-pig-shades;
+
+      &:hover {
+        background-color: $color-pig-bright;
+      }
+    }
+  }
+
+  section {
+    background-color: $color-master-background;
+  }
+}
