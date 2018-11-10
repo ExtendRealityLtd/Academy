@@ -25,7 +25,7 @@ The documentation is split into four main sections:
 
 These are step by step instructions on how to set up specific features offered by VRTK.
 
- * Links Coming Soon
+ * [View How-to Guides](Documentation/HowToGuides/README.md)
 
 ### Tutorials
 <sup>_[Learning Oriented]_</sup>
@@ -33,7 +33,7 @@ These are step by step instructions on how to set up specific features offered b
 These are small to medium projects that go from an empty state to a completed goal that
 shows how to use features within VRTK to build specific solutions.
 
- * Links Coming Soon
+ * [View Tutorials](Documentation/Tutorials/README.md)
 
 ### Explanations
 <sup>_[Understanding Oriented]_</sup>
@@ -42,14 +42,14 @@ These describe common problems and solutions in spatial computing and how VRTK c
 utilized to overcome issues with little effort. They also provide an insight into the
 inner workings of the VRTK features.
 
- * Links Coming Soon
+ * [View Explanations](Documentation/Explanations/README.md)
 
 ### Reference
 <sup>_[Information Oriented]_</sup>
 
 These provide clear points of understanding such as API documentation for the codebase.
 
- * Links Coming Soon
+ * [View Reference](Documentation/Reference/README.md)
 
 ## Contributing
 
