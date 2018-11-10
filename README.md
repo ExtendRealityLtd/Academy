@@ -1,37 +1,63 @@
-## Welcome to GitHub Pages
+![image](https://user-images.githubusercontent.com/1029673/39358522-3d16a6aa-4a0e-11e8-9515-41909f36e70d.png)
 
-You can use the [editor on GitHub](https://github.com/ExtendRealityLtd/VRTK.Documentation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![Slack](http://sysdia2.co.uk/badge.svg)](http://invite.vrtk.io)
+[![Documentation](https://img.shields.io/badge/readme-docs-3484C6.svg)](http://docs.vrtk.io)
+[![Twitter Follow](https://img.shields.io/twitter/follow/vr_toolkit.svg?style=flat&label=twitter)](https://twitter.com/VR_Toolkit)
+[![YouTube](https://img.shields.io/badge/youtube-channel-e52d27.svg)](http://videos.vrtk.io)
+[![Waffle](https://img.shields.io/badge/project-backlog-78bdf2.svg)](https://waffle.io/ExtendRealityLtd/VRTK.Documentation)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Welcome
 
-### Markdown
+VRTK.Documentation is a curriculum of educational content to provide
+a complete understanding of VRTK and how to utilize it to build great
+solutions for spatial computing.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It is aimed at all levels from complete beginners to advanced
+developers to provide a learning curve to fully understand all that is
+on offer.
 
-```markdown
-Syntax highlighted code block
+## Documentation
 
-# Header 1
-## Header 2
-### Header 3
+The documentation is split into four main sections:
 
-- Bulleted
-- List
+### How-to Guides
+<sup>_[Goal Oriented]_</sup>
 
-1. Numbered
-2. List
+These are step by step instructions on how to set up specific features offered by VRTK.
 
-**Bold** and _Italic_ and `Code` text
+ * Links Coming Soon
 
-[Link](url) and ![Image](src)
-```
+### Tutorials
+<sup>_[Learning Oriented]_</sup>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+These are small to medium projects that go from an empty state to a completed goal that
+shows how to use features within VRTK to build specific solutions.
 
-### Jekyll Themes
+ * Links Coming Soon
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ExtendRealityLtd/VRTK.Documentation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Explanations
+<sup>_[Understanding Oriented]_</sup>
 
-### Support or Contact
+These describe common problems and solutions in spatial computing and how VRTK can be
+utilized to overcome issues with little effort. They also provide an insight into the
+inner workings of the VRTK features.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ * Links Coming Soon
+
+### Reference
+<sup>_[Information Oriented]_</sup>
+
+These provide clear points of understanding such as API documentation for the codebase.
+
+ * Links Coming Soon
+
+## Contributing
+
+We're not currently in a place where accepting contributions would
+be helpful. But as soon as we're ready we'll let you know!
+
+## License
+
+Documentation released under the [MIT License].
+
+[MIT License]: LICENSE.md
