@@ -40,6 +40,14 @@ body {
       font: 40px/48px $font-stack;
       font-weight: 600;
       text-shadow: none;
+      white-space: pre;
+      visibility: hidden;
+      height: 50px;
+
+      &:before {
+        visibility: visible;
+        content: "VRTK Academy\a";
+      }
     }
   }
 

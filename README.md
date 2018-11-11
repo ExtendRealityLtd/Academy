@@ -8,7 +8,7 @@
 
 ## Welcome
 
-VRTK.Documentation is a curriculum of educational content to provide
+The VRTK Academy is a curriculum of educational content to provide
 a complete understanding of VRTK and how to utilize it to build great
 solutions for spatial computing.
 
