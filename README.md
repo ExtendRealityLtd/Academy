@@ -1,11 +1,5 @@
 ![image](https://user-images.githubusercontent.com/1029673/39358522-3d16a6aa-4a0e-11e8-9515-41909f36e70d.png)
 
-[![Slack](http://sysdia2.co.uk/badge.svg)](http://invite.vrtk.io)
-[![Documentation](https://img.shields.io/badge/readme-docs-3484C6.svg)](http://docs.vrtk.io)
-[![Twitter Follow](https://img.shields.io/twitter/follow/vr_toolkit.svg?style=flat&label=twitter)](https://twitter.com/VR_Toolkit)
-[![YouTube](https://img.shields.io/badge/youtube-channel-e52d27.svg)](http://videos.vrtk.io)
-[![Waffle](https://img.shields.io/badge/project-backlog-78bdf2.svg)](https://waffle.io/ExtendRealityLtd/VRTK.Documentation)
-
 ## Welcome
 
 The VRTK Academy is a curriculum of educational content to provide
