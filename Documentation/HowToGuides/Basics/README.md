@@ -2,4 +2,4 @@
 
 > &gt; [Home](../../../README.md) &gt; [How-to Guides](../README.md)
 
-### Guides coming soon
+### [Adding The UnityXRCameraRig](AddingTheUnityXRCameraRig/README.md)
