@@ -14,6 +14,13 @@ $color-pig-cloud: #E5E3E3;
 $color-pig-day: #FAFAFA;
 $color-pig-sky: #66A9D6;
 $color-master-background: #FFFFFF;
+$content-width: 850px;
+$content-padding: 30px;
+$menu-width: 200px;
+$menu-padding: 20px;
+$side-margin-left: -(($content-width * 0.5) + $menu-width + $menu-padding);
+$sml-content-width: $content-width - 250px;
+$sml-side-margin-left: -(($sml-content-width * 0.5) + $menu-width + $menu-padding);
 
 body {
   background-image: none;
@@ -33,8 +40,14 @@ body {
   }
 
   header {
+    padding: 25px 0px 40px 0px;
     background-image: none;
     background-color: $color-pig-storm;
+    min-height: auto;
+
+    @media print, screen and (max-width: 480px) {
+      padding-bottom: 20px;
+    }
 
     h1 {
       font: 40px/48px $font-stack;
@@ -56,9 +69,19 @@ body {
     margin-right: 0px;
     background-color: $color-pig-pink;
     border: none;
+    text-align: center;
+
+    #logo {
+      display: none !important;
+    }
 
     .fork {
+      position: relative !important;
       background-color: $color-pig-day;
+      padding-top: 14px;
+      left: auto !important;
+      float: none !important;
+      margin-left: auto !important;
     }
 
     .button {
@@ -70,7 +93,52 @@ body {
     }
   }
 
-  section {
-    background-color: $color-master-background;
+  .wrapper {
+    width: $content-width;
+
+    @media print, screen and (max-width: 1300px) {
+      width: $sml-content-width;
+    }
+
+    @media print, screen and (max-width: 1060px) {
+      width: auto;
+    }
+
+    nav {
+      width: $menu-width;
+      margin-left: $side-margin-left;
+
+      @media print, screen and (max-width: 1300px) {
+        margin-left: $sml-side-margin-left;
+      }
+    }
+
+    section {
+      width: $content-width - ($content-padding * 2);
+      background-color: $color-master-background;
+
+      code {
+        color: $color-pig-swill;
+        background-color: $color-pig-cloud;
+        text-shadow: none;
+      }
+
+      @media print, screen and (max-width: 1300px) {
+        width: $sml-content-width - ($content-padding * 2);
+      }
+
+      @media print, screen and (max-width: 1060px) {
+        width: auto;
+      }
+    }
+
+    footer {
+      width: $menu-width;
+      margin-left: $side-margin-left;
+
+      @media print, screen and (max-width: 1300px) {
+        margin-left: $sml-side-margin-left;
+      }
+    }
   }
 }
