@@ -1,5 +1,18 @@
 [Home](../../../../README.md) &gt; [How-to Guides](../../README.md) &gt; [Basics](../README.md) &gt; Adding The UnityXRCameraRig
 
+  > Reading time: 2 minutes
+
+### Introduction
+
+The UnityXR CameraRig prefab provides a camera that tracks the HMD rotation and position along with any available XR controllers.
+
+### Useful definitions
+
+* `HMD` - A Head Mounted Display is a display device that is worn on the head, usually a VR/AR Headset.
+* `CameraRig` - A GameObject that contains a HMD representation and controller representations.
+* `6 degrees of freedom` - An object that is real world tracked in the 3 rotational axes and 3 directional axes, also known as room scale tracking.
+* `3 degrees of freedom` - An object that is real world tracked in only the 3 rotational axes and no directional axes, also known as stationary tracking.
+
 ### Step 1
 
 Expand the VRTK.Unity.Core directory in the Unity3d Project window until the `VRTK.Unity.Core -> Prefabs -> CameraRig` directory is visible.
