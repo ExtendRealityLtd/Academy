@@ -47,6 +47,6 @@ Now you have a UnityXR CameraRig in your scene. If you play your scene you will 
 
 ### Suggested Reading
 
-* Follow up tutorials coming soon...
+* [Using The TrackedAlias With The UnityXRCameraRig](../UsingTheTrackedAliasWithTheUnityXRCameraRig/README.md)
 
 [VRTK.Unity.Core]: https://github.com/ExtendRealityLtd/VRTK.Unity.Core#getting-started
