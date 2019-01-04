@@ -13,6 +13,10 @@ The UnityXR CameraRig prefab provides a camera that tracks the HMD rotation and 
 * `6 degrees of freedom` - An object that is real world tracked in the 3 rotational axes and 3 directional axes, also known as room scale tracking.
 * `3 degrees of freedom` - An object that is real world tracked in only the 3 rotational axes and no directional axes, also known as stationary tracking.
 
+### Prerequisites
+
+* Add [VRTK.Unity.Core] to your Unity3d project.
+
 ### Step 1
 
 Expand the VRTK.Unity.Core directory in the Unity3d Project window until the `VRTK.Unity.Core -> Prefabs -> CameraRig` directory is visible.
@@ -44,3 +48,5 @@ Now you have a UnityXR CameraRig in your scene. If you play your scene you will 
 ### Suggested Reading
 
 * Follow up tutorials coming soon...
+
+[VRTK.Unity.Core]: https://github.com/ExtendRealityLtd/VRTK.Unity.Core#getting-started
