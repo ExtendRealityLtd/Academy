@@ -1,5 +1,3 @@
-## How-to Guides
-
-> &gt; [Home](../../README.md)
+[Home](../../README.md) &gt; How-to Guides
 
 ### [Basics](Basics/README.md)

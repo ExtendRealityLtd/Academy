@@ -1,5 +1,3 @@
-## Reference
-
-> &gt; [Home](../../README.md)
+[Home](../../README.md) &gt; Reference
 
 ### Categories coming soon

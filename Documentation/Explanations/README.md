@@ -1,5 +1,3 @@
-## Explanations
-
-> &gt; [Home](../../README.md)
+[Home](../../README.md) &gt; Explanations
 
 ### Categories coming soon

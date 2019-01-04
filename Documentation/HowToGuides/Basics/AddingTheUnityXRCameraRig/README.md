@@ -1,6 +1,4 @@
-## How-to Guides - Basics - Adding The UnityXRCameraRig
-
-> &gt; [Home](../../../../README.md) &gt; [How-to Guides](../../README.md) &gt; [Basics](../README.md)
+[Home](../../../../README.md) &gt; [How-to Guides](../../README.md) &gt; [Basics](../README.md) &gt; Adding The UnityXRCameraRig
 
 ### Step 1
 
