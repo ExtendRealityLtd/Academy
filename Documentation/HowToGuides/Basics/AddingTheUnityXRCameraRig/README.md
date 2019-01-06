@@ -2,13 +2,13 @@
 
 # Adding The UnityXRCameraRig
 
-## Introduction
-
   > * Level: Beginner
   >
   > * Reading Time: 2 minutes
   >
   > * Checked with: Unity 2018.3.6f1
+
+## Introduction
 
 The UnityXR CameraRig helper prefab provides a camera that tracks the HMD rotation and position along with any available XR controllers.
 
@@ -57,6 +57,6 @@ Now you have a UnityXR CameraRig in your scene. If you play your scene you will 
 
 ## Related Reading
 
-* Follow up tutorials coming soon...
+* [Using The TrackedAlias With The UnityXRCameraRig](../UsingTheTrackedAliasWithTheUnityXRCameraRig/README.md)
 
 [VRTK Getting Started]: https://github.com/thestonefox/VRTK#getting-started
