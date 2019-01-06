@@ -111,6 +111,12 @@ body {
       @media print, screen and (max-width: 1300px) {
         margin-left: $sml-side-margin-left;
       }
+
+      ul {
+        li.tag-h1 {
+          display: none;
+        }
+      }
     }
 
     section {

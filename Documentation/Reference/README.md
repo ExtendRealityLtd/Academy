@@ -1,4 +1,6 @@
-[Home](../../README.md) &gt; Reference
+&gt; [Home](../../README.md)
+
+# Reference
 
 API documentation for the codebase.
 

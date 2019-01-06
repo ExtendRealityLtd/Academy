@@ -1,21 +1,31 @@
-[Home](../../../../README.md) &gt; [How-to Guides](../../README.md) &gt; [Basics](../README.md) &gt; Adding The UnityXRCameraRig
+&gt; [Home](../../../../README.md) &gt; [How-to Guides](../../README.md) &gt; [Basics](../README.md)
 
-  > Reading time: 2 minutes
+# Adding The UnityXRCameraRig
 
-### Introduction
+## Introduction
 
-The UnityXR CameraRig prefab provides a camera that tracks the HMD rotation and position along with any available XR controllers.
+  > * Level: Beginner
+  >
+  > * Reading Time: 2 minutes
+  >
+  > * Checked with: Unity 2018.1
 
-### Useful definitions
+The UnityXR CameraRig helper prefab provides a camera that tracks the HMD rotation and position along with any available XR controllers.
+
+The outcome of this How-To Guide is to learn how to add the UnityXR CameraRig prefab to the scene and configure it for the tracking space type you require.
+
+## Useful definitions
 
 * `HMD` - A Head Mounted Display is a display device that is worn on the head, usually a VR/AR Headset.
 * `CameraRig` - A GameObject that contains a HMD representation and controller representations.
 * `6 degrees of freedom` - An object that is real world tracked in the 3 rotational axes and 3 directional axes, also known as room scale tracking.
 * `3 degrees of freedom` - An object that is real world tracked in only the 3 rotational axes and no directional axes, also known as stationary tracking.
 
-### Prerequisites
+## Prerequisites
 
 * Add [VRTK.Unity.Core] to your Unity3d project.
+
+## Let's Start
 
 ### Step 1
 
@@ -39,13 +49,13 @@ Select the `UnityXRCameraRig` GameObject in the Unity3d Hierarchy window and cha
 
 ![Unity XR Configuration Tracking Space Type](assets/images/UnityXRConfigurationTrackingSpaceType.png)
 
-### Complete
+### Done
 
 Now you have a UnityXR CameraRig in your scene. If you play your scene you will see that the game Main Camera is tracking the XR HMD and if there is a connected left and/or right XR controller then they will be tracking the Left/Right Anchors of the UnityXR CameraRig.
 
 ![UnityXRCameraRig In Scene](assets/images/UnityXRCameraRigInScene.png)
 
-### Suggested Reading
+## Related Reading
 
 * Follow up tutorials coming soon...
 
