@@ -80,11 +80,25 @@ To use `OVRCameraRig`  with VRTK4, a script component needs to be added to the r
 
 ### Step 5
 
+For some functionality, tracked like the HMD and controllers items need a VelocityEstimator applied to them. In the OVRCameraRig, these items are the `CenterEyeAnchor` (which always has the HMD pose) and the hand controllers `LeftHandAnchor` and`RightHandAnchor`.
+
+* Find the `VelocityEstimator` script in `VRTK.Unity.Core -> Scripts -> Tracking -> Velocity`
+
+* In the Hierarchy, open `OVRCameraRig -> Tracking`
+
+* Drag the `VelocityEstimator` script on each of the following GameObjects: `CenterEyeAnchor`, `LeftHandAnchor` and `RightHandAnchor`
+
+  ![Apply VelocityEstimator script](assets/images/DragVelocityEstimator.PNG)
+
+  
+
+### Step 6
+
 The `Linked Alias Association Collection (Script)` component needs to be configured by referencing the right game objects.
 
 * Select the `OVRCameraRig` in the Hierarchy window.
 
-* In the Inspector, find its `Linked Alias Association Collection (Script)`  component. In here several Game Objects need to be specified.
+* In the Inspector, find its `Linked Alias Association Collection (Script)`  component. In here all empty fields need to be filled with the right Game Objects.
   
 
   ![LinkedAliasAssociationCollection component of OVRCameraRig](assets/images/LinkedAliasAssociationCollectionComponent.PNG)
@@ -92,9 +106,9 @@ The `Linked Alias Association Collection (Script)` component needs to be configu
 * In the Hierarchy window, open the `OVRCameraRig -> TrackingSpace`. Drag the following GameObjects from there to the specified fields in `Linked Alias Association Collection (Script)`
 
   * `TrackingSpace` to `Play Area`
-  * `CenterEyeAnchor` to `Headset` and `Headset Camera`
-  * `LeftHandAnchor` to `Left Controller`
-  * `RightHandAnchor` to `Right Controller`
+  * `CenterEyeAnchor` to `Headset` ,`Headset Camera` and `Headset Velocity`
+  * `LeftHandAnchor` to `Left Controller` and `Left Controller Velocity`
+  * `RightHandAnchor` to `Right Controller `and `Right Controller Velocity`
 
   ![Component setup](assets/images/LinkedAliasAssociationCollectionSetup.PNG)
 
