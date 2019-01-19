@@ -26,12 +26,17 @@ The outcome of this How-To Guide is to learn how to add the Oculus OVRCameraRig 
 
 * Add [VRTK.Unity.Core] to your Unity3d project.
 
-* Add [Oculus Integration] from AssetStore to your Unity3d project![Unity AssetStore](assets/images/AssetStore_OculusIntegration.png)
+* Add [Oculus Integration] from AssetStore to your Unity3d project
+
+  ![Unity AssetStore](assets/images/AssetStore_OculusIntegration.png)
 
   * Hint: For getting started you will only need the VR subfolder of the package.
+
     ![Oculus Integration Import Package Dialog](assets/images/OculusIntegrationImportDialog.PNG)
   * After the import you might be asked to update your Oculus Utilities Plugin
+
     ![Oculus Utilities Plugin Update Dialog](assets/images/OculusPluginUpdate.PNG)
+
     Hit `Yes` and Restart Unity after the update.
 
   
@@ -58,16 +63,19 @@ Select the `OVRCameraRig` GameObject in the Unity3d Hierarchy window and change 
   * `Eye Level` for Oculus devices that support 6 degrees of freedom tracking (the ability to move around your play area).
   * `FloorLevel` for Oculus devices that support 3 degrees of freedom tracking (only the ability to look around but not move within your play area), like the GearVR or OculusGo.
 
-![OVRCameraRig Configuration Tracking Origin Type](assets/images/OVRConfigTrackingOrigin.PNG)
-See [Oculus Unity Documentation](https://developer.oculus.com/documentation/unity/latest/concepts/unity-utilities-overview/) for details.
+    ![OVRCameraRig Configuration Tracking Origin Type](assets/images/OVRConfigTrackingOrigin.PNG)
+
+    See [Oculus Unity Documentation](https://developer.oculus.com/documentation/unity/latest/concepts/unity-utilities-overview/) for details.
 
 ### Step 4
 
 To use `OVRCameraRig`  with VRTK4, a script component needs to be added to the rig.
 
 * In the Project window, expand `Assets -> VRTK.Unity.Core -> Scripts -> Tracking -> CameraRig` and find the `LinkedAliasAssociationCollection` script.
+
   ![LinkedAliasAssociationCollection script](assets/images/LinkedAliasAssociationCollection.PNG)
 * Drag the `LinkedAliasAssociationCollection` onto the `OVRCameraRig` in the Hierarchy window
+
   ![Drag LinkedAliasAssociationScript on OVRCameraRig](assets/images/DragLinkedAliasToOVR.PNG)
 
 ### Step 5
@@ -77,9 +85,11 @@ The `Linked Alias Association Collection (Script)` component needs to be configu
 * Select the `OVRCameraRig` in the Hierarchy window.
 
 * In the Inspector, find its `Linked Alias Association Collection (Script)`  component. In here several Game Objects need to be specified.
+  
+
   ![LinkedAliasAssociationCollection component of OVRCameraRig](assets/images/LinkedAliasAssociationCollectionComponent.PNG)
 
-* In the Hierarchy window, open the OVRCameraRig -> TrackingSpace. Drag the following GameObjects from there to the specified fields in `Linked Alias Association Collection (Script)`
+* In the Hierarchy window, open the `OVRCameraRig -> TrackingSpace`. Drag the following GameObjects from there to the specified fields in `Linked Alias Association Collection (Script)`
 
   * `TrackingSpace` to `Play Area`
   * `CenterEyeAnchor` to `Headset` and `Headset Camera`
@@ -92,9 +102,9 @@ The `Linked Alias Association Collection (Script)` component needs to be configu
 
 ### Done
 
-Now you have a Oculus OVRCameraRig in your scene. If you play your scene you will see that the game Main Camera is tracking the Oculus HMD and if there is a connected left and/or right XR controller then they will be tracking the Left/Right Anchors of the OVRCameraRig.
+Now you have a Oculus OVRCameraRig in your scene. If you play your scene you will see that the game Main Camera is tracking the Oculus HMD and if there is a connected left and/or right Oculus controller then they will be tracking the Left/Right Anchors of the OVRCameraRig. The OVRCameraRig now can also be used by VRTK's Tracked Alias Object.
 
-![UnityXRCameraRig In Scene](assets/images/OVRCameraRigInScene.png)
+![Oculus OVRCameraRig in scene](assets/images/OVRCameraRigInScene.png)
 
 ## Related Reading
 
