@@ -28,7 +28,7 @@ The outcome of this How-To Guide is to learn how to add the Oculus OVRCameraRig 
 
 * Add [Oculus Integration] from AssetStore to your Unity3d project
 
-  ![Unity AssetStore](assets/images/AssetStore_OculusIntegration.png)
+  ![Unity AssetStore](assets/images/AssetStore_OculusIntegration.PNG)
 
   * Hint: For getting started you will only need the VR subfolder of the package.
 
