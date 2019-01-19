@@ -55,6 +55,8 @@ Select the `OVRCameraRig` prefab, then drag and drop it into the Hierarchy windo
 
 ![Drag UnityXRCameraRig To Hierarchy](assets/images/DragOVRCameraRigToHierarchy.PNG)
 
+Hint: You also may delete the `Main Camera` from the Hierarchy now, as the `OVRCameraRig` contains a camera.
+
 ### Step 3
 
 Select the `OVRCameraRig` GameObject in the Unity3d Hierarchy window and change the `OVR Manager (Script)` component to suit your Tracking Space requirements.
@@ -80,7 +82,7 @@ To use `OVRCameraRig`  with VRTK4, a script component needs to be added to the r
 
 ### Step 5
 
-For some functionality, tracked like the HMD and controllers items need a VelocityEstimator applied to them. In the OVRCameraRig, these items are the `CenterEyeAnchor` (which always has the HMD pose) and the hand controllers `LeftHandAnchor` and`RightHandAnchor`.
+For some functionality, tracked like the HMD and controllers items need a `VelocityEstimator` applied to them. In the `OVRCameraRig`, these items are the `CenterEyeAnchor` (which always has the HMD pose) and the hand controllers `LeftHandAnchor` and`RightHandAnchor`.
 
 * Find the `VelocityEstimator` script in `VRTK.Unity.Core -> Scripts -> Tracking -> Velocity`
 
@@ -116,7 +118,7 @@ The `Linked Alias Association Collection (Script)` component needs to be configu
 
 ### Done
 
-Now you have a Oculus OVRCameraRig in your scene. If you play your scene you will see that the game Main Camera is tracking the Oculus HMD and if there is a connected left and/or right Oculus controller then they will be tracking the Left/Right Anchors of the OVRCameraRig. The OVRCameraRig now can also be used by VRTK's Tracked Alias Object.
+Now you have a Oculus `OVRCameraRig` in your scene. If you play your scene you will see that the game Main Camera is tracking the Oculus HMD and if there is a connected left and/or right Oculus controller then they will be tracking the Left/Right Anchors of the `OVRCameraRig`. The `OVRCameraRig` now can also be used by VRTK's `Tracked Alias` Object.
 
 ![Oculus OVRCameraRig in scene](assets/images/OVRCameraRigInScene.PNG)
 
