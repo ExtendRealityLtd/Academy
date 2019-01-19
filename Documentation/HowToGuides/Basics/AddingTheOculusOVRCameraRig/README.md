@@ -104,7 +104,7 @@ The `Linked Alias Association Collection (Script)` component needs to be configu
 
 Now you have a Oculus OVRCameraRig in your scene. If you play your scene you will see that the game Main Camera is tracking the Oculus HMD and if there is a connected left and/or right Oculus controller then they will be tracking the Left/Right Anchors of the OVRCameraRig. The OVRCameraRig now can also be used by VRTK's Tracked Alias Object.
 
-![Oculus OVRCameraRig in scene](assets/images/OVRCameraRigInScene.png)
+![Oculus OVRCameraRig in scene](assets/images/OVRCameraRigInScene.PNG)
 
 ## Related Reading
 
