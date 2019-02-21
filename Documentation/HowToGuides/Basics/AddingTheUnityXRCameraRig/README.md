@@ -8,7 +8,7 @@
   >
   > * Reading Time: 2 minutes
   >
-  > * Checked with: Unity 2018.1
+  > * Checked with: Unity 2018.3.6f1
 
 The UnityXR CameraRig helper prefab provides a camera that tracks the HMD rotation and position along with any available XR controllers.
 
@@ -23,15 +23,15 @@ The outcome of this How-To Guide is to learn how to add the UnityXR CameraRig pr
 
 ## Prerequisites
 
-* Add [VRTK.Unity.Core] to your Unity3d project.
+* Follow the [VRTK Getting Started] steps to add VRTK to your Unity project.
 
 ## Let's Start
 
 ### Step 1
 
-Expand the VRTK.Unity.Core directory in the Unity3d Project window until the `VRTK.Unity.Core -> Prefabs -> CameraRig` directory is visible.
+Expand the VRTK directory in the Unity Project window until the `VRTK -> Prefabs -> CameraRig -> UnityXRCameraRig` directory is visible and select the `UnityXRCameraRig` directory so the contents are displayed.
 
-![Unity3d Project Window](assets/images/Unity3dProjectWindow.png)
+![Unity Project Window](assets/images/UnityProjectWindow.png)
 
 ### Step 2
 
@@ -41,7 +41,7 @@ Select the `UnityXRCameraRig` prefab then drag and drop it into the Hierarchy wi
 
 ### Step 3
 
-Select the `UnityXRCameraRig` GameObject in the Unity3d Hierarchy window and change the `Unity XR Configuration` component to suit your Tracking Space requirements.
+Select the `UnityXRCameraRig` GameObject in the Unity Hierarchy window and change the `Unity XR Configuration` component to suit your Tracking Space requirements.
 
 * Ensure the `Tracking Space Type` is set to:
   * `Room Scale` for XR devices that support 6 degrees of freedom tracking (the ability to move around your play area).
@@ -59,4 +59,4 @@ Now you have a UnityXR CameraRig in your scene. If you play your scene you will 
 
 * Follow up tutorials coming soon...
 
-[VRTK.Unity.Core]: https://github.com/ExtendRealityLtd/VRTK.Unity.Core#getting-started
+[VRTK Getting Started]: https://github.com/thestonefox/VRTK#getting-started
