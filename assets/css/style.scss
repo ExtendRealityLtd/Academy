@@ -31,12 +31,20 @@ body {
     color: $color-pig-sky;
   }
 
+  p, ul, ol, table, pre, dl {
+    font-weight: 300;
+  }
+
   blockquote {
     border-left-color: $color-pig-pink;
   }
 
   ul {
     list-style-image: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
   }
 
   header {
@@ -50,12 +58,22 @@ body {
     }
 
     h1 {
-      font: 40px/48px $font-stack;
-      font-weight: 600;
+      @media print, screen and (max-width: 720px) {
+        font: 51px/40px $font-stack;
+        font-weight: 200;
+      }
+
+      @media print, screen and (max-width: 480px) {
+        font: 44px/62px $font-stack;
+        font-weight: 200;
+      }
+
+      font: 61px/46px $font-stack;
+      font-weight: 200;
       text-shadow: none;
       white-space: pre;
       visibility: hidden;
-      height: 50px;
+      height: 62px;
 
       &:before {
         visibility: visible;
@@ -123,10 +141,28 @@ body {
       width: $content-width - ($content-padding * 2);
       background-color: $color-master-background;
 
+      h3 {
+        em {
+          font-size: 70%;
+          font-weight: 300;
+          color: $color-pig-storm;
+        }
+      }
+
+      pre {
+        background-color: $color-pig-cloud;
+      }
+
       code {
         color: $color-pig-swill;
         background-color: $color-pig-cloud;
         text-shadow: none;
+      }
+
+      blockquote {
+        ul {
+          padding: 0 0 0 10px;
+        }
       }
 
       @media print, screen and (max-width: 1300px) {
