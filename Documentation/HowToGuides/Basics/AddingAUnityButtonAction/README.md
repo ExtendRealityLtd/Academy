@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Unity Button Actions tie into the Unity Input Manager and emit events when an defined Input button is pressed and released.
+Unity Button Actions tie into the Unity Input Manager and emit events when a defined Input button is pressed and released.
 
 A Unity Button Action is derrived from a [Zinnia.Unity] Action and therefore can be injected into any VRTK prefab that requires an initiating action (e.g. pointer activation).
 
@@ -108,7 +108,7 @@ Duplicating Action outcomes is not ideal as if you require many different inputs
 
 ## Related Reading
 
-* Follow up tutorials coming soon...
+* [Adding A Unity Axis Action](../AddingAUnityAxisAction/README.md)
 
 [Zinnia.Unity]: https://github.com/ExtendRealityLtd/Zinnia.Unity
 [Unity Input for OpenVR Controllers]: https://docs.unity3d.com/Manual/OpenVRControllers.html
