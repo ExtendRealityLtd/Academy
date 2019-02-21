@@ -53,3 +53,4 @@ You can now place other GameObjects in the TrackedAlias child GameObjects and th
 ## Related Reading
 
 * [Adding A Unity Button Action](../AddingAUnityButtonAction/README.md)
+* [Adding A Unity Axis Action](../AddingAUnityAxisAction/README.md)
