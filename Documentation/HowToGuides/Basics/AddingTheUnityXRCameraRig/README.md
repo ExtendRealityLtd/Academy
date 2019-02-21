@@ -59,6 +59,6 @@ Now you have a UnityXR CameraRig in your scene. If you play the Unity scene you 
 
 ## Related Reading
 
-* Follow up tutorials coming soon...
+* [Adding A TrackedAlias](../AddingATrackedAlias/README.md)
 
 [VRTK Getting Started]: https://github.com/thestonefox/VRTK#getting-started
