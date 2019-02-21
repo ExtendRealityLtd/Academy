@@ -1,6 +1,6 @@
 &gt; [Home](../../../../README.md) &gt; [How-to Guides](../../README.md) &gt; [Basics](../README.md)
 
-# Using The TrackedAlias With The UnityXRCameraRig
+# Adding A TrackedAlias
 
 > * Level: Beginner
 >
@@ -52,4 +52,4 @@ You can now place other GameObjects in the TrackedAlias child GameObjects and th
 
 ## Related Reading
 
-* Follow up tutorials coming soon...
+* [Adding A Unity Button Action](../AddingAUnityButtonAction/README.md)
