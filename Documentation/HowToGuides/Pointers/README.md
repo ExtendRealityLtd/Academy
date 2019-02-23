@@ -5,3 +5,4 @@
 Providing ways of selecting specific areas or items in a scene through a directed beam type.
 
 ### [Adding A Straight Pointer](AddingAStraightPointer/README.md)
+### [Adding A Bezier Pointer](AddingABezierPointer/README.md)
