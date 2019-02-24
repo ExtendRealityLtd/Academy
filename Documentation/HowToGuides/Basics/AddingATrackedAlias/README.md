@@ -17,6 +17,7 @@ This is useful if you want to support multiple SDK Camera Rigs in your scene but
 ## Useful definitions
 
 * `SDK Camera Rig` - A prefab from a specific 3rd party plugin (or SDK) that provides the basis for an XR Camera Rig setup (e.g. SteamVR or Oculus Integration).
+* `Facade` - A facade provides a user friendly interface into a more complex underlying system.
 
 ## Prerequisites
 
@@ -38,7 +39,7 @@ Select the `TrackedAlias` GameObject in the Unity Hierarchy window then change t
 
 ### Step 3
 
-Drag the `UnityXRCameraRig` GameObject from the Unity Hierarchy window and drop it into the newly displayed `Element` property underneath the `Tracked Alias Facade` component `Camera Rigs` property.
+Drag and drop the `UnityXRCameraRig` GameObject from the Unity Hierarchy window into the newly displayed `Element 0` field within the `CameraRigs -> Size` parameter on the `Tracked Alias Facade` component.
 
 ![Drag And Drop UnityXRCameraRig Into TrackedAlias CameraRigs](assets/images/DragAndDropUnityXRCameraRigIntoTrackedAliasCameraRigs.png)
 
@@ -52,5 +53,6 @@ You can now place other GameObjects in the TrackedAlias child GameObjects and th
 
 ## Related Reading
 
+* [Adding The SimulatedCameraRig](../AddingTheSimulatedCameraRig/README.md)
 * [Adding A Unity Button Action](../AddingAUnityButtonAction/README.md)
 * [Adding A Unity Axis Action](../AddingAUnityAxisAction/README.md)

@@ -10,7 +10,7 @@
 
 ## Introduction
 
-The UnityXR CameraRig helper prefab provides a camera that tracks the HMD rotation and position along with any available XR controllers.
+The UnityXR CameraRig prefab provides a camera that tracks the HMD rotation and position along with any available XR controllers.
 
 The outcome of this How-To Guide is to learn how to add the UnityXR CameraRig prefab to the scene and configure it for the tracking space type you require.
 
