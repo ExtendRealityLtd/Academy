@@ -68,3 +68,4 @@ Play the Unity scene and touch the Trackpad on the Right Controller and the Stra
 ## Related Reading
 
 * [Adding A Bezier Pointer](../AddingABezierPointer/README.md)
+* [Adding A Teleporter](../../Locomotion/AddingATeleporter/README.md)

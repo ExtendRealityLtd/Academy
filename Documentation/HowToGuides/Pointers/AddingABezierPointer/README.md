@@ -68,3 +68,4 @@ Play the Unity scene and touch the Trackpad on the Left Controller and the Bezie
 ## Related Reading
 
 * [Adding A Straight Pointer](../AddingAStraightPointer/README.md)
+* [Adding A Teleporter](../../Locomotion/AddingATeleporter/README.md)
