@@ -118,6 +118,7 @@ This is because when the trigger is not being touched at all, the axis value for
 
 * [Adding A Unity Button Action](../AddingAUnityButtonAction/README.md)
 * [Creating Proxy Actions And Chaining Actions](../CreatingProxyActionsAndChainingActions/README.md)
+* [Converting A Float Action To A Boolean Action](../ConvertingAFloatActionToABooleanAction/README.md)
 
 [Zinnia.Unity]: https://github.com/ExtendRealityLtd/Zinnia.Unity
 [Unity Input for OpenVR Controllers]: https://docs.unity3d.com/Manual/OpenVRControllers.html
