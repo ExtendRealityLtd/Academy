@@ -24,7 +24,7 @@ The Bezier Pointer is a popular choice when creating a teleport locomotion featu
 
 ## Prerequisites
 
-* A Unity Button Action exists in the scene. See [Adding A Unity Button Action](../../Basics/AddingAUnityButtonAction/README.md).
+* A Unity Button Action exists in the scene. See [Adding A Unity Button Action](../../Actions/AddingAUnityButtonAction/README.md).
 
 ## Let's Start
 

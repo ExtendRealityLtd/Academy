@@ -4,6 +4,7 @@
 
 Step by step instructions on how to set up specific features offered by VRTK.
 
-### [Basics](Basics/README.md)
+### [CameraRigs](CameraRigs/README.md)
+### [Actions](Actions/README.md)
 ### [Pointers](Pointers/README.md)
 ### [Locomotion](Locomotion/README.md)

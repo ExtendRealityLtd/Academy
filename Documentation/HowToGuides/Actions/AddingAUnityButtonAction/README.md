@@ -1,4 +1,4 @@
-&gt; [Home](../../../../README.md) &gt; [How-to Guides](../../README.md) &gt; [Basics](../README.md)
+&gt; [Home](../../../../README.md) &gt; [How-to Guides](../../README.md) &gt; [Actions](../README.md)
 
 # Adding A Unity Button Action
 
@@ -23,7 +23,7 @@ VRTK comes with some prebuilt prefabs containing common button mappings for Open
 
 ## Prerequisites
 
-* A TrackedAlias is set up in the scene. See [Adding A TrackedAlias](../AddingATrackedAlias/README.md).
+* A TrackedAlias is set up in the scene. See [Adding A TrackedAlias](../../CameraRigs/AddingATrackedAlias/README.md).
 
 ## Let's Start
 

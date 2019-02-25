@@ -46,7 +46,7 @@ The `Target` parameter on the `Teleporter Facade` component determines which Gam
 
 If the scene is set up with multiple SDK Camera Rigs due to wanting to support different hardware requirements, then you'll see it's not possible to assign all of these Camera Rigs to the `Target` parameter on the `Teleporter Facade` component. We also don't want to add multiple `Teleporter.Instant` prefabs to the scene for each Camera Rig.
 
-This is where the `TrackedAlias` prefab helps out. The `TrackAlias` prefab provides aliases for the common virtual player GameObjects such as the Play Area, Headset and Controllers. See [Adding A TrackedAlias](../../Basics/AddingATrackedAlias/README.md) for more information.
+This is where the `TrackedAlias` prefab helps out. The `TrackAlias` prefab provides aliases for the common virtual player GameObjects such as the Play Area, Headset and Controllers. See [Adding A TrackedAlias](../../CameraRigs/AddingATrackedAlias/README.md) for more information.
 
 Expand the `TrackedAlias` GameObject in the Unity Hierarchy to expose the child GameObjects then drag and drop the `TrackedAlias -> PlayAreaAlias` GameObject into the `Target` parameter on the `TeleporterFacade` component.
 

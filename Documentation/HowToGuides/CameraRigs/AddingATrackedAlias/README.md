@@ -1,4 +1,4 @@
-&gt; [Home](../../../../README.md) &gt; [How-to Guides](../../README.md) &gt; [Basics](../README.md)
+&gt; [Home](../../../../README.md) &gt; [How-to Guides](../../README.md) &gt; [CameraRigs](../README.md)
 
 # Adding A TrackedAlias
 
@@ -54,5 +54,5 @@ You can now place other GameObjects in the TrackedAlias child GameObjects and th
 ## Related Reading
 
 * [Adding The SimulatedCameraRig](../AddingTheSimulatedCameraRig/README.md)
-* [Adding A Unity Button Action](../AddingAUnityButtonAction/README.md)
-* [Adding A Unity Axis Action](../AddingAUnityAxisAction/README.md)
+* [Adding A Unity Button Action](../../Actions/AddingAUnityButtonAction/README.md)
+* [Adding A Unity Axis Action](../../Actions/AddingAUnityAxisAction/README.md)

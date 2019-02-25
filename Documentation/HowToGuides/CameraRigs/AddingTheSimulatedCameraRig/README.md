@@ -1,4 +1,4 @@
-&gt; [Home](../../../../README.md) &gt; [How-to Guides](../../README.md) &gt; [Basics](../README.md)
+&gt; [Home](../../../../README.md) &gt; [How-to Guides](../../README.md) &gt; [CameraRigs](../README.md)
 
 # Adding The SimulatedCameraRig
 
@@ -72,4 +72,4 @@ The `TrackedAlias` prefab will automatically update to use the newly activated C
 
 ## Related Reading
 
-* [Creating Proxy Actions And Chaining Actions](../CreatingProxyActionsAndChainingActions/README.md)
+* [Creating Proxy Actions And Chaining Actions](../../Actions/CreatingProxyActionsAndChainingActions/README.md)
