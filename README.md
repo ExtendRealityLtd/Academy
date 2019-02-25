@@ -8,25 +8,25 @@ The educational content is aimed at all levels from complete beginners to advanc
 
 ## Documentation
 
-### How-to Guides _- Goal Oriented_
+### How-to Guides
 
 Step by step instructions on how to set up specific features offered by VRTK.
 
 * [View How-to Guides](Documentation/HowToGuides/README.md)
 
-### Tutorials _- Learning Oriented_
+### Tutorials
 
 Small to medium projects that go from an empty state to a completed goal that shows how to use features within VRTK to build specific solutions.
 
 * [View Tutorials](Documentation/Tutorials/README.md)
 
-### Explanations _- Understanding Oriented_
+### Explanations
 
 Common problems and solutions in spatial computing explained along with how VRTK can be utilized to overcome issues with little effort. They also provide an insight into the inner workings of the VRTK features.
 
 * [View Explanations](Documentation/Explanations/README.md)
 
-### Reference _- Information Oriented_
+### Reference
 
 API documentation for the codebase.
 
