@@ -24,7 +24,7 @@ A Straight Pointer is useful for picking out a location with precision especiall
 
 ## Prerequisites
 
-* A Unity Button Action exists in the scene. See [Adding A Unity Button Action](../../Basics/AddingAUnityButtonAction/README.md).
+* A Unity Button Action exists in the scene. See [Adding A Unity Button Action](../../Actions/AddingAUnityButtonAction/README.md).
 
 ## Let's Start
 
