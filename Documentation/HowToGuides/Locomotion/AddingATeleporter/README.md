@@ -1,6 +1,6 @@
 &gt; [Home](../../../../README.md) &gt; [How-to Guides](../../README.md) &gt; [Locomotion](../README.md)
 
-# Adding Teleporter
+# Adding A Teleporter
 
 > * Level: Beginner
 >
