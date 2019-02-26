@@ -78,4 +78,4 @@ We now have an `Interactor` prefab attached to our `TrackedAlias -> LeftControll
 
 ## Related Reading
 
-* Coming Soon...
+* [Adding An Interactable](../AddingAnInteractable/README.md)
