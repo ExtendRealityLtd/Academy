@@ -8,3 +8,4 @@ Step by step instructions on how to set up specific features offered by VRTK.
 ### [Actions](Actions/README.md)
 ### [Pointers](Pointers/README.md)
 ### [Locomotion](Locomotion/README.md)
+### [Interactions](Interactions/README.md)
