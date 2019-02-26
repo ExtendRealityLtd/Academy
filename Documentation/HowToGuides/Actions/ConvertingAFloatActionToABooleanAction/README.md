@@ -77,5 +77,6 @@ Now you have a `Boolean Action` that will emit `true` when the Trigger axis is s
 
 * [Adding A Straight Pointer](../../Pointers/AddingAStraightPointer/README.md)
 * [Adding A Bezier Pointer](../../Pointers/AddingABezierPointer/README.md)
+* [Adding An Interactor](../../Interactions/AddingAnInteractor/README.md)
 
 [Zinnia.Unity]: https://github.com/ExtendRealityLtd/Zinnia.Unity

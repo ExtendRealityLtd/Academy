@@ -112,6 +112,7 @@ Duplicating Action outcomes is not ideal as if you require many different inputs
 * [Creating Proxy Actions And Chaining Actions](../CreatingProxyActionsAndChainingActions/README.md)
 * [Adding A Straight Pointer](../../Pointers/AddingAStraightPointer/README.md)
 * [Adding A Bezier Pointer](../../Pointers/AddingABezierPointer/README.md)
+* [Adding An Interactor](../../Interactions/AddingAnInteractor/README.md)
 
 [Zinnia.Unity]: https://github.com/ExtendRealityLtd/Zinnia.Unity
 [Unity Input for OpenVR Controllers]: https://docs.unity3d.com/Manual/OpenVRControllers.html
