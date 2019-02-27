@@ -28,7 +28,7 @@ Common problems and solutions in spatial computing explained along with how VRTK
 
 ### Reference
 
-API documentation for the codebase.
+API documentation for the code-base.
 
 * [View Reference](Documentation/Reference/README.md)
 

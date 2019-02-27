@@ -10,7 +10,7 @@
 
 ## Introduction
 
-The Simulated CameraRig prefab provides a faux setup that requires no XR hardware to develop and build with. It creates a pseudo headset and controllers that can be manipulated via the mouse and keyboard, which helps testing and building virtual environments without the need for actual hardware to be plugged in.
+The Simulated CameraRig prefab provides a simulated setup that requires no XR hardware to develop and build with. It creates a pseudo headset and controllers that can be manipulated via the mouse and keyboard, which helps testing and building virtual environments without the need for actual hardware to be plugged in.
 
 The outcome of this guide is to learn how to add the Simulated CameraRig prefab to the scene and configure it along with a TrackedAlias prefab.
 

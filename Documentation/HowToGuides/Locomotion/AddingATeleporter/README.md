@@ -60,7 +60,7 @@ This tells the Teleporter that when we teleport, we want to move the Play Area t
 
 When the `Target` is teleported, the destination location will become the new central position of the `Target` GameObject. Because our virtual Play Area represents our real world Play Area, this means that if the user walks around their real world Play Area then their position is actually offset inside the Play Area.
 
-This can have an effect when teleporting the user because the user may actually expect to end up standing exactly on the spot where they marked as the destination location. If we just move the Play Area GameObject to match the destination location then the user will still be offset from that destination location and not end up where they expcted.
+This can have an effect when teleporting the user because the user may actually expect to end up standing exactly on the spot where they marked as the destination location. If we just move the Play Area GameObject to match the destination location then the user will still be offset from that destination location and not end up where they expected.
 
 ![Diagram Of How Teleport Location May Require An Offset](assets/images/DiagramOfHowTeleportLocationMayRequireAnOffset.png)
 

@@ -2,6 +2,6 @@
 
 # Reference
 
-API documentation for the codebase.
+API documentation for the code-base.
 
 ### Categories coming soon
