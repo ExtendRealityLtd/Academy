@@ -44,7 +44,7 @@ Drag and drop the `Interactor` prefab to be a child of the `LeftControllerAlias`
 
 Select the `Interactor` prefab in the Unity Hierarchy under the `LeftControllerAlias` GameObject and change the `Interactor Facade` component to configure the base functionality of the Interactor.
 
-We need to specify an action that initiates the Interactor's Grab notificaiton. The `Grab Action` parameter on the `Interactor Facade` allows us to provide a `Boolean Action` to initiate the Grab function of the Interactor.
+We need to specify an action that initiates the Interactor's Grab notification. The `Grab Action` parameter on the `Interactor Facade` allows us to provide a `Boolean Action` to initiate the Grab function of the Interactor.
 
 In the [Converting A Float Action To A Boolean Action](../../Actions/ConvertingAFloatActionToABooleanAction/README.md) guide, we learned how to convert a controller axis value to a boolean value so we can initiate actions such as grabbing when a controller axis reaches a certain limit. This is ideal, as for this example we'll set up pressing the trigger axis down on the controller will initiate the Grab action.
 
@@ -64,11 +64,11 @@ Now we should have a `LeftTriggerPressed` GameObject in the Unity Hierarchy wind
 
 When an Interactor grabs an interactable object, it is usually required that the velocity that the Interactor is moving at can be applied to the interactable object. For example, if we were to pick up an interactable object and throw it, then we would want the velocity that we're moving our virtual controller at to be applied to the interactable object so we can control the power of the throw.
 
-The `Velocity Tracker` paramter on the `Interactor Facade` component allows us to specify a velocity tracking component that will provide the relevant velocity data. Fortunately, our `TrackedAlias` prefab already comes with the relevant `Velocity Tracker` components on the relevant aliases that can move freely in the virtual world such as the Headset, Left Controller and Right Controller.
+The `Velocity Tracker` parameter on the `Interactor Facade` component allows us to specify a velocity tracking component that will provide the relevant velocity data. Fortunately, our `TrackedAlias` prefab already comes with the relevant `Velocity Tracker` components on the relevant aliases that can move freely in the virtual world such as the Headset, Left Controller and Right Controller.
 
-Drag and drop the `TrackedAlias -> Aliases -> LeftControllerAlias` GameObject into the `Velocity Tracker` paramter on the `Interactor Facade` to set the interactor to track velocities from our Left Controller.
+Drag and drop the `TrackedAlias -> Aliases -> LeftControllerAlias` GameObject into the `Velocity Tracker` parameter on the `Interactor Facade` to set the interactor to track velocities from our Left Controller.
 
-![Drag And Drop Left Controller Alias To Velocity Tracker Paramter](assets/images/DragAndDropLeftControllerAliasToVelocityTrackerParamter.png)
+![Drag And Drop Left Controller Alias To Velocity Tracker Parameter](assets/images/DragAndDropLeftControllerAliasToVelocityTrackerParamter.png)
 
 > Note: Be sure to do the same with the `RightControllerAlias` GameObject and the `RightControllerAlias -> Interactor` prefab.
 

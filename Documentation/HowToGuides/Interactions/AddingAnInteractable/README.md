@@ -10,11 +10,11 @@
 
 ## Introduction
 
-An `Interactable` prefab provides GameObject that can be interacted with in the virutal world via an `Interactor` prefab. Interactable GameObjects can be notified of actionss that the Interactor is performing such as being touched by an Interactor or reacting to actions such as a grab button being pressed.
+An `Interactable` prefab provides GameObject that can be interacted with in the virtual world via an `Interactor` prefab. Interactable GameObjects can be notified of actions that the Interactor is performing such as being touched by an Interactor or reacting to actions such as a grab button being pressed.
 
 There are a number of different `Interactable` prefabs on offer, but for this example we'll focus on setting up the `Interactable.Primary_Grab.Secondary_Swap` prefab, which is the most common use case for an Interactable GameObject.
 
-By default, Interactable GameObjects can usually perform two actions depending on which Interactor is acting upon them. A common use case is a scene with a Left and Right Controller, both capable of grabbing the Interactable GameObject and carrying it in some way, the first grab attempt from an Interactor is called the `Primary Grab Action` and whilst this is occuring any second grab attempt from a different Interactor is called the `Secondary Grab Action`.
+By default, Interactable GameObjects can usually perform two actions depending on which Interactor is acting upon them. A common use case is a scene with a Left and Right Controller, both capable of grabbing the Interactable GameObject and carrying it in some way, the first grab attempt from an Interactor is called the `Primary Grab Action` and whilst this is occurring any second grab attempt from a different Interactor is called the `Secondary Grab Action`.
 
 This guide will show how to set up an `Interactable` prefab that we can grab with either of our controllers and when we grab it with the other controller, the Interactable GameObject will swap hands as if we had passed the GameObject between our virtual hands.
 
@@ -51,7 +51,7 @@ Expand the VRTK directory in the Unity Project window until the `VRTK -> Prefabs
 
 We're going to change the look of the `Interactable.Primary_Grab.Secondary_Swap` GameObject as by default it's just a `1 x 1 x 1` Cube, which will be very big in our virtual world.
 
-Expand the `Interactable.Primary_Grab.Secondary_Swap` GameObject in the Unity Hierarchy window until the `Meshes -> DefaultMesh` GameObject is visible. We can add a new mesh or collection of meshes under the `Meshes` GameObject and simply set the `Meshes -> DefaultMesh` GameObject to inactive to hide it from the scene, or we can simply change the paramters on the components found on the `Meshes -> DefaultMesh` GameObject.
+Expand the `Interactable.Primary_Grab.Secondary_Swap` GameObject in the Unity Hierarchy window until the `Meshes -> DefaultMesh` GameObject is visible. We can add a new mesh or collection of meshes under the `Meshes` GameObject and simply set the `Meshes -> DefaultMesh` GameObject to inactive to hide it from the scene, or we can simply change the parameters on the components found on the `Meshes -> DefaultMesh` GameObject.
 
 For this example, we'll just change the `Meshes -> DefaultMesh` to reduce the size of the cube. With the `Meshes -> DefaultMesh` GameObject selected, change the `Transform` component properties to:
 

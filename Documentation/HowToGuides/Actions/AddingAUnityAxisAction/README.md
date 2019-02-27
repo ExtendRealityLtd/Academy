@@ -15,9 +15,9 @@ Unity Axis Actions tie into the Unity Input Manager and emit events when a defin
 * Unity 1D Axis: listens for changes on a single axis and emits a float value for the axis changes.
 * Unity 2D Axis: listens for changes on a two axes and emits a Vector2 value combining both axis changes.
 
-A Unity Axis Action is derrived from a [Zinnia.Unity] Action and therefore can be injected into any VRTK prefab that requires varying float data (e.g. touchpad movement).
+A Unity Axis Action is derived from a [Zinnia.Unity] Action and therefore can be injected into any VRTK prefab that requires varying float data (e.g. touchpad movement).
 
-VRTK will ask via a popup window on first load of the Unity project whether to attempt to auto create some Unity axis input mappings. If this is accepted then default axis data for left and right controller touchpad/thumbsticks, grip and trigger axes will be created.
+VRTK will ask via a pop up window on first load of the Unity project whether to attempt to auto create some Unity axis input mappings. If this is accepted then default axis data for left and right controller touchpad/thumbsticks, grip and trigger axes will be created.
 
 ## Useful definitions
 
@@ -38,7 +38,7 @@ Expand the `Axes` collapsed item if necessary and confirm there are some VRTK ax
 
 ![VRTK Axis Entries](assets/images/VRTKAxisEntries.png)
 
-If the VRTK axis entries don't appear, then the VRTK popup window can be accessed by selecting `Main Menu -> Window -> VRTK -> Manage Input Mappings`.
+If the VRTK axis entries don't appear, then the VRTK pop up window can be accessed by selecting `Main Menu -> Window -> VRTK -> Manage Input Mappings`.
 
 The VRTK axis input mappings relate to the standard axes outlined at the [Unity Input for OpenVR Controllers].
 

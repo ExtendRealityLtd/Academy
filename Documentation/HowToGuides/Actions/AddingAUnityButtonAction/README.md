@@ -12,9 +12,9 @@
 
 Unity Button Actions tie into the Unity Input Manager and emit events when a defined Input button is pressed and released.
 
-A Unity Button Action is derrived from a [Zinnia.Unity] Action and therefore can be injected into any VRTK prefab that requires an initiating action (e.g. pointer activation).
+A Unity Button Action is derived from a [Zinnia.Unity] Action and therefore can be injected into any VRTK prefab that requires an initiating action (e.g. pointer activation).
 
-VRTK comes with some prebuilt prefabs containing common button mappings for OpenVR and Oculus controllers.
+VRTK comes with some pre-built prefabs containing common button mappings for OpenVR and Oculus controllers.
 
 ## Useful definitions
 
@@ -84,7 +84,7 @@ Play the Unity scene and press the Right Controller Menu Button and the `Floor` 
 
 ### Step 6
 
-Let's create a custom Unity Button Action to do the same action as outlined aboved but based on a keyboard press.
+Let's create a custom Unity Button Action to do the same action as outlined above but based on a keyboard press.
 
 Create an Empty GameObject in the Unity Hierarchy then click the `Add Component` button and select the `Unity Button Action` component.
 
