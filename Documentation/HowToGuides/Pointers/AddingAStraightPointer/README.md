@@ -6,7 +6,7 @@
 >
 > * Reading Time: 5 minutes
 >
-> * Checked with: Unity 2018.3.6f1
+> * Checked with: Unity 2018.3.9f1
 
 ## Introduction
 
@@ -44,7 +44,7 @@ The `Follow Source` parameter determines what GameObject the Pointer should trac
 
 ### Step 3
 
-The Straight Pointer will be deactivated by default (unless the `Activate On Enable` parameter on the `Object Pointer` component is ticked), so we need a way of activating and deactivating the Pointer beam. This is done by hooking up a `BooleanAction` that when becomes `true` will activate the Pointer and when becomes `false` will deactivate the Pointer.
+The Straight Pointer will be deactivated by default so we need a way of activating and deactivating the Pointer beam. This is done by hooking up a `BooleanAction` that when becomes `true` will activate the Pointer and when becomes `false` will deactivate the Pointer.
 
 Any `BooleanAction` can be used to perform this activation/deactivation but in this instance we're going to use the touch state of the Trackpad of our OpenVR Controller, so when the Trackpad is touched then the Pointer will activate and when the Trackpad is no longer being touched then the Pointer will deactivate.
 
@@ -67,5 +67,5 @@ Play the Unity scene and touch the Trackpad on the Right Controller and the Stra
 
 ## Related Reading
 
-* [Adding A Bezier Pointer](../AddingABezierPointer/README.md)
+* [Adding A Curved Pointer](../AddingACurvedPointer/README.md)
 * [Adding A Teleporter](../../Locomotion/AddingATeleporter/README.md)

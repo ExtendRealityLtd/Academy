@@ -6,7 +6,7 @@
 >
 > * Reading Time: 10 minutes
 >
-> * Checked with: Unity 2018.3.6f1
+> * Checked with: Unity 2018.3.9f1
 
 ## Introduction
 
@@ -54,8 +54,9 @@ Then apply this newly created `Material` to the `Sphere` GameObject that was jus
 
 ### Step 3
 
-The `Unity Axis 1D Action` and `Unity Axis 2D Action` components have 3 events that can be hooked into:
+The `Unity Axis 1D Action` and `Unity Axis 2D Action` components have 4 events that can be hooked into:
 
+* Activation State Changed: Emitted when the activation state of the action changes from the previous state.
 * Activated: Emitted when the axis value is no longer at the set default value.
 * Value Changed: Emitted when the axis value changes.
 * Deactivated: Emitted when the axis value returns to the set default value.

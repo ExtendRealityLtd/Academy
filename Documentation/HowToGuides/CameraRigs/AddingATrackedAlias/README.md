@@ -6,7 +6,7 @@
 >
 > * Reading Time: 2 minutes
 >
-> * Checked with: Unity 2018.3.6f1
+> * Checked with: Unity 2018.3.9f1
 
 ## Introduction
 
@@ -33,13 +33,13 @@ Expand the VRTK directory in the Unity Project window until the `VRTK -> Prefabs
 
 ### Step 2
 
-Select the `TrackedAlias` GameObject in the Unity Hierarchy window then change the `Tracked Alias Facade` component and increase the `Camera Rigs` size property by `1` (it will be `0` by default so change it to `1`)
+Select the `TrackedAlias` GameObject in the Unity Hierarchy window then change the `Linked Alias Association Collection Observable List` component and increase the `Elements` size property by `1` (it will be `0` by default so change it to `1`)
 
 ![Tracked Alias Facade Camera Rigs Size](assets/images/TrackedAliasFacadeCameraRigsSize.png)
 
 ### Step 3
 
-Drag and drop the `UnityXRCameraRig` GameObject from the Unity Hierarchy window into the newly displayed `Element 0` field within the `CameraRigs -> Size` parameter on the `Tracked Alias Facade` component.
+Drag and drop the `UnityXRCameraRig` GameObject from the Unity Hierarchy window into the newly displayed `Element 0` field within the `Elements` parameter on the `Linked Alias Association Collection Observable List` component attached to the `TrackedAlias` GameObject.
 
 ![Drag And Drop UnityXRCameraRig Into TrackedAlias CameraRigs](assets/images/DragAndDropUnityXRCameraRigIntoTrackedAliasCameraRigs.png)
 

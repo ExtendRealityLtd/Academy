@@ -6,7 +6,7 @@
 >
 > * Reading Time: 5 minutes
 >
-> * Checked with: Unity 2018.3.6f1
+> * Checked with: Unity 2018.3.9f1
 
 ## Introduction
 
@@ -48,7 +48,7 @@ This will let the Simulator controls move the Tracked Aliases around the scene w
 
 ### Step 4
 
-Select the `TrackedAlias` GameObject in the Unity Hierarchy window and increase the `CameraRigs -> Size` parameter on the `Tracked Alias Facade` component by `1`.
+Select the `TrackedAlias` GameObject in the Unity Hierarchy window and increase the `Elements -> Size` parameter on the `Linked Alias Association Collection Observable List` component by `1`.
 
 > Note: In this example we'll be setting it to `2` as there is already a `UnityXRCameraRig` in the scene.
 
@@ -56,7 +56,7 @@ Select the `TrackedAlias` GameObject in the Unity Hierarchy window and increase 
 
 ### Step 5
 
-Drag and drop the `SimulatedCameraRig` GameObject from the Unity Hierarchy window into the newly displayed `Element 1` field within the `CameraRigs -> Size` parameter on the `Tracked Alias Facade` component.
+Drag and drop the `SimulatedCameraRig` GameObject from the Unity Hierarchy window into the newly displayed `Element 1` field within the `Elements` parameter on the `Linked Alias Association Collection Observable List` component attached to the `TrackedAlias` GameObject.
 
 ![Drag And Drop Simulated CameraRig Into Tracked Alias CameraRigs](assets/images/DragAndDropSimulatedCameraRigIntoTrackedAliasCameraRigs.png)
 

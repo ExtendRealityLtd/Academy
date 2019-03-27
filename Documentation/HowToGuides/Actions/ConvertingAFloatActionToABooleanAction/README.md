@@ -6,7 +6,7 @@
 >
 > * Reading Time: 5 minutes
 >
-> * Checked with: Unity 2018.3.6f1
+> * Checked with: Unity 2018.3.9f1
 
 ## Introduction
 
@@ -76,7 +76,7 @@ Now you have a `Boolean Action` that will emit `true` when the Trigger axis is s
 ## Related Reading
 
 * [Adding A Straight Pointer](../../Pointers/AddingAStraightPointer/README.md)
-* [Adding A Bezier Pointer](../../Pointers/AddingABezierPointer/README.md)
+* [Adding A Curved Pointer](../../Pointers/AddingACurvedPointer/README.md)
 * [Adding An Interactor](../../Interactions/AddingAnInteractor/README.md)
 
 [Zinnia.Unity]: https://github.com/ExtendRealityLtd/Zinnia.Unity

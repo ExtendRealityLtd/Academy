@@ -6,7 +6,7 @@
 >
 > * Reading Time: 5 minutes
 >
-> * Checked with: Unity 2018.3.6f1
+> * Checked with: Unity 2018.3.9f1
 
 ## Introduction
 
@@ -58,8 +58,9 @@ Select the `UnityXR.OpenVR.RightController -> MenuButton -> Press[0]` GameObject
 
 ### Step 4
 
-The `Unity Button Action` component has 3 events that can be hooked into:
+The `Unity Button Action` component has 4 events that can be hooked into:
 
+* Activation State Changed: Emitted when the activation state of the action changes from the previous state.
 * Activated: Emitted when the button is pressed down.
 * Value Changed: Emitted when the state of the button value changes, e.g. goes from being pressed down to being released.
 * Deactivated: Emitted when the button is released and no longer pressed down.
@@ -111,7 +112,7 @@ Duplicating Action outcomes is not ideal as if you require many different inputs
 * [Adding A Unity Axis Action](../AddingAUnityAxisAction/README.md)
 * [Creating Proxy Actions And Chaining Actions](../CreatingProxyActionsAndChainingActions/README.md)
 * [Adding A Straight Pointer](../../Pointers/AddingAStraightPointer/README.md)
-* [Adding A Bezier Pointer](../../Pointers/AddingABezierPointer/README.md)
+* [Adding A Curved Pointer](../../Pointers/AddingACurvedPointer/README.md)
 * [Adding An Interactor](../../Interactions/AddingAnInteractor/README.md)
 
 [Zinnia.Unity]: https://github.com/ExtendRealityLtd/Zinnia.Unity
