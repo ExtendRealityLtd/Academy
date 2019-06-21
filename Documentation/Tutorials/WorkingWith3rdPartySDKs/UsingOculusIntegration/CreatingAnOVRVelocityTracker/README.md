@@ -301,6 +301,37 @@ Our component will now be able to report velocities for the headset anchor along
 
 > [see commit #f91057c](https://github.com/ExtendRealityLtd/VRTK.Tutorials.OculusIntegration/commit/f91057cfb7b9bb232ec3287d333763de99f411f7)
 
+The code so far will work as long as the PlayArea (the OVRCameraRig) isn't rotated, but as soon as it is rotated then the velocity that is being reported will not take this rotation offset into consideration. We can inject a copy of the PlayArea GameObject as something that our tracked velocity is relative to.
+
+First thing to do is add a new parameter that will let us inject a relative GameObject:
+
+```
+[Tooltip("An optional object to consider the source relative to when retrieving velocities.")]
+public GameObject relativeTo;
+```
+
+Now we can use this injected GameObject in our velocity reporting calculation by using its rotation value as an offset:
+
+```
+protected override Vector3 DoGetVelocity()
+{
+  switch (trackedGameObject.name)
+  {
+    case "CenterEyeAnchor":
+      return relativeTo.transform.rotation * (OVRManager.isHmdPresent ? OVRPlugin.GetNodeVelocity(OVRPlugin.Node.EyeCenter, OVRPlugin.Step.Render).FromFlippedZVector3f() : Vector3.zero);
+    case "LeftHandAnchor":
+      return relativeTo.transform.rotation * OVRInput.GetLocalControllerVelocity(OVRInput.Controller.LTouch);
+    case "RightHandAnchor":
+      return relativeTo.transform.rotation * OVRInput.GetLocalControllerVelocity(OVRInput.Controller.RTouch);
+  }
+  return Vector3.zero;
+}
+```
+
+Our velocity calculation will now take the relative GameObject that is injected (the OVRCameraRig) and use its rotation as an offset.
+
+> [see commit #45e5c13](https://github.com/ExtendRealityLtd/VRTK.Tutorials.OculusIntegration/commit/45e5c13b12cedc67a1731f49bbb96ae83e0a488e)
+
 ### Step 8
 
 The angular velocities are also obtained in a very similar way as the SDK calls made to retrieve the velocity data also contain methods for receiving angular velocity data.
@@ -324,6 +355,28 @@ protected override Vector3 DoGetAngularVelocity()
 ```
 
 > [see commit #cab5f94](https://github.com/ExtendRealityLtd/VRTK.Tutorials.OculusIntegration/commit/cab5f94abd671797672679bdc4e1483b6f96c069)
+
+Again, our angular velocity will report correctly as long as there is no rotation applied to the actual tracked object, as soon as there is a rotation applied then the angular velocity will be calculated incorrectly. This is simply solved by using the `trackedGameObject` rotation value to offset the reported angular velocity:
+
+```
+protected override Vector3 DoGetAngularVelocity()
+{
+  switch (trackedGameObject.name)
+  {
+    case "CenterEyeAnchor":
+      return trackedGameObject.transform.rotation * (OVRManager.isHmdPresent ? OVRPlugin.GetNodeAngularVelocity(OVRPlugin.Node.EyeCenter, OVRPlugin.Step.Render).FromFlippedZVector3f() : Vector3.zero);
+    case "LeftHandAnchor":
+      return trackedGameObject.transform.rotation * OVRInput.GetLocalControllerAngularVelocity(OVRInput.Controller.LTouch);
+    case "RightHandAnchor":
+      return trackedGameObject.transform.rotation * OVRInput.GetLocalControllerAngularVelocity(OVRInput.Controller.RTouch);
+   }
+   return Vector3.zero;
+}
+```
+
+Now the reported angular velocity will take any rotation of the tracked GameObject into account and will report the correct angular velocity.
+
+> [see commit #135e801](https://github.com/ExtendRealityLtd/VRTK.Tutorials.OculusIntegration/commit/135e8017e82ca20d0a8b3edf712faed39b255c0f)
 
 ### Step 9
 
@@ -352,13 +405,13 @@ Let's start with the `OVRCameraRig -> TrackingSpace -> CenterEyeAnchor` to set u
 
 Select the `OVRCameraRig -> TrackingSpace -> CenterEyeAnchor` GameObject in the Unity Hierarchy and click the `Add Component` button in the Unity Inspector and select `OVRAnchorVelocityEstimator` to add that component to the GameObject.
 
-Then drag and drop the `CenterEyeAnchor` GameObject into the `Tracked Game Object` parameter on the `OVRAnchorVelocityEstimator` component.
+Drag and drop the `CenterEyeAnchor` GameObject into the `Tracked Game Object` parameter on the `OVRAnchorVelocityEstimator` component then drag and drop the `OVRCameraRig` GameObject into the `Relative To` parameter on the `OVRAnchorVelocityEstimator` component.
 
 ![Drag And Drop CenterEyeAnchor To Tracked GameObject Parameter](assets/images/DragAndDropCenterEyeAnchorToTrackedGameObjectParameter.png)
 
 ### Step 11
 
-Let's do the same with the `LeftHandAnchor` and the `RightHandAnchor` GameObjects so they both have a copy of the `OVRAnchorVelocityEstimator` component with their `Tracked Game Object` parameter references set.
+Let's do the same with the `LeftHandAnchor` and the `RightHandAnchor` GameObjects so they both have a copy of the `OVRAnchorVelocityEstimator` component with their `Tracked Game Object` and `Relative To` parameter references set.
 
 * Left Controller
 
