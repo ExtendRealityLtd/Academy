@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i&display=swap');
 
 $font-stack: roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $color-pig-pink: #F3AEAE;
@@ -22,6 +23,8 @@ $menu-padding: 20px;
 $side-margin-left: -(($content-width * 0.5) + $menu-width + $menu-padding);
 $sml-content-width: $content-width - 250px;
 $sml-side-margin-left: -(($sml-content-width * 0.5) + $menu-width + $menu-padding);
+$weight-light: 300;
+$weight-normal: 400;
 
 body {
   background-image: none;
@@ -33,7 +36,7 @@ body {
   }
 
   p, ul, ol, table, pre, dl {
-    font-weight: 300;
+    font-weight: $weight-normal;
   }
 
   blockquote {
@@ -45,7 +48,7 @@ body {
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: $weight-normal;
   }
 
   header {
@@ -61,16 +64,16 @@ body {
     h1 {
       @media print, screen and (max-width: 720px) {
         font: 51px/40px $font-stack;
-        font-weight: 200;
+        font-weight: $weight-light;
       }
 
       @media print, screen and (max-width: 480px) {
         font: 44px/62px $font-stack;
-        font-weight: 200;
+        font-weight: $weight-light;
       }
 
       font: 61px/46px $font-stack;
-      font-weight: 200;
+      font-weight: $weight-light;
       text-shadow: none;
       white-space: pre;
       visibility: hidden;
@@ -153,11 +156,11 @@ body {
 
       h3 {
         font-size: 22px;
-        font-weight: 28px;
+        font-weight: $weight-normal;
 
         em {
           font-size: 70%;
-          font-weight: 300;
+          font-weight: $weight-normal;
           color: $color-pig-storm;
         }
       }
@@ -206,7 +209,7 @@ body {
 
         a {
           color: $color-faded-text;
-          font-weight: 300;
+          font-weight: $weight-normal;
         }
       }
     }
