@@ -10,7 +10,7 @@
 
 ## Introduction
 
-The first step into interacting with virtual objects is to define an interactor, which is a concept of something that knows when it is touching and interactable object as well as being able to grab the object to affect it in some way.
+The first step into interacting with virtual objects is to define an interactor, which is a concept of something that knows when it is touching an interactable object as well as being able to grab the object to affect it in some way.
 
 The Interactor prefab can be added to any GameObject that we want to be able to touch and grab interactable objects. In this guide we'll look at making the virtual controllers work as interactors so we can simulate picking up virtual objects with our virtual hands.
 
@@ -30,7 +30,7 @@ The Interactor prefab can be added to any GameObject that we want to be able to 
 
 The `Interactor` prefab comes with an `ExampleAvatar` GameObject, which provides a basic representation of the Interactor containing a simple cube mesh and a simple cube collider. These can be changed to suit whatever purpose you may have, but for this example, we'll keep the `ExampleAvatar` GameObject untouched.
 
-> Note: If you followed the [Adding A TrackedAlias](../../CameraRigs/AddingATrackedAlias/README.md) and added in custom GameObjects for controller avatars, you can delete them now as the `ExampleAvatar` GameObject will provide us with a basic controller avatar instead.
+> Note: If you followed the [Adding A TrackedAlias](../../CameraRigs/AddingATrackedAlias/README.md) guide and added in custom GameObjects for controller avatars, you can delete them now as the `ExampleAvatar` GameObject will provide us with a basic controller avatar instead.
 
 Expand the VRTK directory in the Unity Project window until the `VRTK -> Prefabs -> Interactions -> Interactors` directory is visible. For this example, we're going to add the Interactor prefab to our controller aliases within our TrackedAlias prefab, so expand the TrackedAlias prefab in the Unity Hierarchy window until the `LeftControllerAlias` and `RightControllerAlias` GameObjects are visible.
 
