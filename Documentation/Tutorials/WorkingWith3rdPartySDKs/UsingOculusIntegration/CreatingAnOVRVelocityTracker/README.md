@@ -13,7 +13,7 @@
 
 The Oculus Integration SDK provides velocity and angular velocity data from the `OVRPlugin` and `OVRInput` part of the SDK. It's possible to create a simple script to wrap this data and utilize it within VRTK for reporting velocities. Getting the velocity and angular velocity of a tracked device is essential for things like throwing objects as the speed and direction in which the controller is moving can be converted into the power to throw the object at.
 
-All of the code in this section can be found at https://github.com/ExtendRealityLtd/VRTK.Tutorials.OculusIntegration/blob/master/Runtime/Tracking/Velocity
+All of the code in this section can be found on the [VRTK.Tutorials.OculusIntegration](https://github.com/ExtendRealityLtd/VRTK.Tutorials.OculusIntegration/blob/master/Runtime/Tracking/Velocity) repository.
 
 ## Useful definitions
 
