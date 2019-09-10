@@ -29,17 +29,11 @@ The OVRCameraRig is a prefab from the Oculus Integration Unity Package that desc
 
 ### Step 1
 
-Expand the Oculus directory in the Unity Project window until the `Oculus -> VR -> Prefabs` directory is visible and select the `Prefabs` directory so the contents are displayed.
-
-![Unity Project Window](assets/images/UnityProjectWindow.png)
-
-### Step 2
-
-Select the `OVRCameraRig` prefab then drag and drop it into the Hierarchy window.
+Expand the Oculus directory in the Unity Project window until the `Oculus -> VR -> Prefabs` directory is visible and select the `Prefabs` directory so the contents are displayed then select the `OVRCameraRig` prefab then drag and drop it into the Hierarchy window.
 
 ![Drag OVRCameraRig To Hierarchy](assets/images/DragOVRCameraRigToHierarchy.png)
 
-### Step 3
+### Step 2
 
 Select the `OVRCameraRig` GameObject in the Unity Hierarchy window and review the settings in the `OVR Manager` component.
 
@@ -51,7 +45,7 @@ The tracking type will determine how the HMD is placed in the scene and is diffe
 
 ![OVRManager Tracking Origin Type](assets/images/OVRManagerTrackingOriginType.png)
 
-### Step 4
+### Step 3
 
 Now there is an `OVRCameraRig` configured in the scene so it's time to wrap it with VRTK so it can be utilized by the `TrackedAlias` prefab.
 
@@ -61,7 +55,7 @@ Click on the `Add Component` button on the `OVRCameraRig` GameObject and then se
 
 This component allows us to specify which elements of the `OVRCameraRig` prefab relate to the tracked elements required by the VRTK `TrackedAlias` prefab.
 
-### Step 5
+### Step 4
 
 Expand the `OVRCameraRig` GameObject in the Unity Hierarchy window until it is fully expanded and showing all child GameObjects. These child GameObjects represent the parts of the `OVRCameraRig` that make up the elements of the VR setup.
 
@@ -69,7 +63,7 @@ Let's start by linking the `Play Area` by dragging and dropping the `OVRCameraRi
 
 ![Drag OVRCameraRig To Play Area Parameter](assets/images/DragOVRCameraRigToPlayAreaParameter.png)
 
-### Step 6
+### Step 5
 
 Now to set up the Headset links, which comes in 3 parts:
 
@@ -83,7 +77,7 @@ Drag and drop the `OVRCameraRig -> TrackingSpace -> CenterEyeAnchor` GameObject 
 
 ![Drag OVRCameraRig Headset To Headset Parameters](assets/images/DragOVRCameraRigHeadsetToHeadsetParameters.png)
 
-### Step 7
+### Step 6
 
 Now to set up the Controller links. Oculus Integration supports two controllers a `Left` and a `Right` controller, each controller comes in 2 parts:
 
@@ -100,11 +94,11 @@ Drag and drop the `OVRCameraRig -> TrackingSpace -> LeftHandAnchor` GameObject i
 
 ![Drag OVRCameraRig Controller To Controller Parameter](assets/images/DragOVRCameraRigControllerToControllerParameter.png)
 
-### Step 8
+### Step 7
 
 The `OVRCameraRig` has now been configured so VRTK can recognize the various required elements for the `TrackedAlias` prefab. All that is left is to add the `OVRCameraRig` to our `TrackedAlias` in the scene.
 
-Select the `TrackedAlias` GameObject from the Unity Hierarchy window then drag and drop the `OVRCameraRig` GameObject into the `Elements -> Element 0` parameter on the `Linked Alias Association Collection Observable List` component.
+Select the `TrackedAlias` GameObject from the Unity Hierarchy window then drag and drop the `OVRCameraRig` GameObject into the `Camera Rigs -> Elements -> Element 0` parameter on the `Tracked Alias Facade` component.
 
 > Note: This `Element 0` parameter should already exist from the previous set up of the `TrackedAlias`, however if it doesn't exist then simply set the `Size` parameter to `1`.
 
