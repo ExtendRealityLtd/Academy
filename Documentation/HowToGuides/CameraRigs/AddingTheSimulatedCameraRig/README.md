@@ -40,23 +40,15 @@ Select the `SimulatedCameraRig` prefab then drag and drop it into the Unity Hier
 
 ### Step 3
 
-Select the `SimulatedCameraRig` GameObject in the Unity Hierarchy window then drag and drop the `TrackedAlias` GameObject from the Unity Hierarchy window into the `TrackedAlias` parameter on the `Simulator Facade` component.
-
-This will let the Simulator controls move the Tracked Aliases around the scene which represents the pseudo hardware.
-
-![Drag TrackedAlias To Simulator Facade](assets/images/DragTrackedAliasToSimulatorFacade.png)
-
-### Step 4
-
-Select the `TrackedAlias` GameObject in the Unity Hierarchy window and increase the `Elements -> Size` parameter on the `Linked Alias Association Collection Observable List` component by `1`.
+Select the `TrackedAlias` GameObject in the Unity Hierarchy window then increase the `Camera Rigs -> Elements -> Size` property by `1` on the `Tracked Alias Facade` component 
 
 > Note: In this example we'll be setting it to `2` as there is already a `UnityXRCameraRig` in the scene.
 
 ![Tracked Alias Facade CameraRigs Size](assets/images/TrackedAliasFacadeCameraRigsSize.png)
 
-### Step 5
+### Step 4
 
-Drag and drop the `SimulatedCameraRig` GameObject from the Unity Hierarchy window into the newly displayed `Element 1` field within the `Elements` parameter on the `Linked Alias Association Collection Observable List` component attached to the `TrackedAlias` GameObject.
+Drag and drop the `SimulatedCameraRig` GameObject from the Unity Hierarchy window into the newly displayed `Element 1` field within the `Elements` parameter on the `Tracked Alias Facade` component.
 
 ![Drag And Drop Simulated CameraRig Into Tracked Alias CameraRigs](assets/images/DragAndDropSimulatedCameraRigIntoTrackedAliasCameraRigs.png)
 
