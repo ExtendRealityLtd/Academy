@@ -185,6 +185,8 @@ namespace Actions.BooleanActions
 
 Now, add the script to a `GameObject` in order to see it as a component.
 
+![Add Custom Boolean Action Component](assets/images/AddCustomBooleanActionComponent.png)
+
 The `Custom Boolean Value` component has 4 events that can be hooked into:
 
 * Activation State Changed: Emitted when the activation state of the action changes from the previous state.
