@@ -8,8 +8,6 @@
 >
 > * Checked with: Unity 2018.3.11f1
 >
-> * TODO
->> * Add images where needed
 
 ## Introduction
 
@@ -40,7 +38,7 @@ Create a new `Cube` Unity 3D Object by selecting `Main Menu -> GameObject -> 3D 
 
 This will be a basic cube that we will be using as a way of testing our Boolean Action by toggling this GameObject on and off based on a boolean value.
 
-![Create Floor GameObject](assets/images/CreateFloorGameObject.png)
+![Create Cube GameObject](assets/images/CreateCubeGameObject.PNG)
 
 ### Step 2
 
@@ -198,17 +196,19 @@ For an example of how to hook these events into doing something, let's make the 
 
 Click the `+` symbol in the bottom right corner of the `Activated` event parameter in the `Custom Boolean Action` component and then drag and drop the `Cube` GameObject into the box that appears and displays `None (Object)`.
 
-![Add Floor GameObject To Activated Event Listener](assets/images/AddFloorGameObjectToActivatedEventListener.png)
-
 Select a `Function` to perform when the `Activated` event is emitted. For this example, select `GameObject -> SetActive(bool)` (be sure not to select `Dynamic bool - SetActive` for this example).
 
-![Set Activated Listener To GameObject SetActive Action](assets/images/SetActivatedListenerToGameObjectSetActiveAction.png)
+![Add Cube GameObject To Activated Event Listener](assets/images/AddCubeGameObjectToActivatedListener.png)
 
-Do the same with de `Deactivated` event, selecting `GameObject -> SetActive(bool)` again, with a different argument.
+Do the same with the `Deactivated` event, selecting `GameObject -> SetActive(bool)` again, with a different argument.
+
+![Add Cube GameObject To Deactivated Event Listener](assets/images/AddCubeGameObjectToDeactivatedListener.png)
 
 ### Step 7
 
 Play the Unity scene and change the `boolValue` state in the inspector, the `Cube` GameObject will disappear when the `boolValue` variable is false and reappear when the `boolValue` variable is true.
+
+![Change Bolean Value](assets/images/ChangeBooleanValue.png)
 
 ### Done
 
