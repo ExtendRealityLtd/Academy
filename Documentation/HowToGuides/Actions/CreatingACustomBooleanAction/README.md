@@ -46,7 +46,7 @@ This will be a basic cube that we will be using as a way of testing our Boolean 
 
 Open the newly created `CustomBooleanAction` script. The Unity Software creates the default body for the script so right now it should look like this:
 
-```
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -69,7 +69,7 @@ public class CustomBooleanAction : MonoBehaviour
 
 We don't actually need most of that default code so delete the relevant lines so the code is at the following starting point:
 
-```
+```csharp
 using UnityEngine;
 
 public class CustomBooleanAction : MonoBehaviour
@@ -94,7 +94,7 @@ It's best practice to use the directory structure as the basis of the namespace 
 
 So to add that namespace to our code, we simply wrap the class with a namespace block, like so:
 
-```
+```csharp
 namespace Actions.BooleanActions
 {
   using UnityEngine;
@@ -115,7 +115,7 @@ namespace Actions.BooleanActions
 
 Currently the class extends the [MonoBehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html) component. However, we want our component to be a Zinnia Boolean Action so we can emit a boolean value. To extend the Zinnia Boolean Action, we simply need to include the relevant Zinnia Action library in our class and make sure we extend it.
 
-```
+```csharp
 namespace Actions.BooleanActions
 {
   using UnityEngine;
@@ -137,7 +137,7 @@ namespace Actions.BooleanActions
 
 We have two more things to do, first, let's add a bool variable to test our custom Boolean Action.
 
-```
+```csharp
 namespace Actions.BooleanActions
 {
   using UnityEngine;
@@ -160,7 +160,7 @@ namespace Actions.BooleanActions
 
 Now, let's use the `Receive` method from Zinnia.Action to keep track of our bool value every frame.
 
-```
+```csharp
 namespace Actions.BooleanActions
 {
   using UnityEngine;
