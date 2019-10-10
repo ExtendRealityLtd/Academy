@@ -6,6 +6,6 @@ Providing generic ways of listening for input and determining an appropriate out
 
 ### [Adding A Unity Button Action](AddingAUnityButtonAction/README.md)
 ### [Adding A Unity Axis Action](AddingAUnityAxisAction/README.md)
-### [Creating a custom Boolean Action](CreatingACustomBooleanAction/README.md)
+### [Creating A Custom Boolean Action](CreatingACustomBooleanAction/README.md)
 ### [Creating Proxy Actions And Chaining Actions](CreatingProxyActionsAndChainingActions/README.md)
 ### [Converting A Float Action To A Boolean Action](ConvertingAFloatActionToABooleanAction/README.md)
