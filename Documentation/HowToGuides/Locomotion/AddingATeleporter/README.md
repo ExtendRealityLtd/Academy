@@ -104,7 +104,7 @@ Select the `ObjectPointer.Curved` GameObject in the Unity Hierarchy then drag an
 
 The Curved Pointer prefab will now emit the destination location data whenever the user presses the Left OpenVR Controller Trackpad button so all we need to do is hook up that selection event to call the Teleporter.
 
-Click the `+` symbol in the bottom right corner of the `Selected` event parameter on the `Object Pointer` component found on the `ObjectPointer.Curved` GameObject then drag and drop the `Teleporter.Instant` GameObject into the box that appears and displays `None (Object)`.
+Click the `+` symbol in the bottom right corner of the `Selected` event parameter on the `Pointer Facade` component found on the `ObjectPointer.Curved` GameObject then drag and drop the `Teleporter.Instant` GameObject into the box that appears and displays `None (Object)`.
 
 ![Drag And Drop Teleporter To Pointer Activated Event Listener](assets/images/DragAndDropTeleporterToPointerActivatedEventListener.png)
 

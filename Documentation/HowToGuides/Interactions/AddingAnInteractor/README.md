@@ -30,11 +30,11 @@ The Interactor prefab can be added to any GameObject that we want to be able to 
 
 The `Interactor` prefab comes with an `ExampleAvatar` GameObject, which provides a basic representation of the Interactor containing a simple cube mesh and a simple cube collider. These can be changed to suit whatever purpose you may have, but for this example, we'll keep the `ExampleAvatar` GameObject untouched.
 
-> Note: If you followed the [Adding A TrackedAlias](../../CameraRigs/AddingATrackedAlias/README.md) guide and added in custom GameObjects for controller avatars, you can delete them now as the `ExampleAvatar` GameObject will provide us with a basic controller avatar instead.
+> Note: If you followed the [Adding A TrackedAlias](../../CameraRigs/AddingATrackedAlias/README.md) guide and added in custom GameObjects for controller avatars, you can delete them now as the `ExampleAvatar` GameObject will provide us with a basic controller avatar instead. This guide is based off the scene created in [Converting A Float Action To A Boolean Action](../../Actions/ConvertingAFloatActionToABooleanAction/README.md).
 
 Expand the VRTK directory in the Unity Project window until the `VRTK -> Prefabs -> Interactions -> Interactors` directory is visible. For this example, we're going to add the Interactor prefab to our controller aliases within our TrackedAlias prefab, so expand the TrackedAlias prefab in the Unity Hierarchy window until the `LeftControllerAlias` and `RightControllerAlias` GameObjects are visible.
 
-Drag and drop the `Interactor` prefab to be a child of the `LeftControllerAlias` then drag and drop another `Interactor` prefab to be a child of the RightControllerAlias`.
+Drag and drop the `Interactor` prefab to be a child of the `LeftControllerAlias` then drag and drop another `Interactor` prefab to be a child of the `RightControllerAlias`.
 
 ![Drag Interactor To Controller Aliases](assets/images/DragInteractorToControllerAliases.png)
 
@@ -48,9 +48,9 @@ We need to specify an action that initiates the Interactor's Grab notification. 
 
 In the [Converting A Float Action To A Boolean Action](../../Actions/ConvertingAFloatActionToABooleanAction/README.md) guide, we learned how to convert a controller axis value to a boolean value so we can initiate actions such as grabbing when a controller axis reaches a certain limit. This is ideal, as for this example we'll set up pressing the trigger axis down on the controller will initiate the Grab action.
 
-There is already a `RightTriggerPressed` GameObject in the Unity Hierarchy window that will give us a `Boolean Action` for the Right Controller Trigger axis. We need to create the same concept but for the Left Controller Trigger axis.
+There is already a `RightTriggerPressed` GameObject in the Unity Hierarchy window that will give us a `Boolean Action` for the Right Controller Trigger axis. We need to create the same concept but for the Left Controller Trigger axis. This `RightTriggerPressed` action sequence is initiated by the `Unity Axis 1D Action` component found within our scene on the GameObject named `GameObject`. Let's rename this to make it a bit easier to understand, so rename the `GameObject` GameObject to `RightTriggerAxis`. Let's also remove the `Opacity Changer` component from our newly named `RightTriggerAxis` GameObject as this won't be needed anymore. Finally, let's delete the `Sphere` GameObject as that isn't needed either.
 
-> Challenge: Can you set up a `LeftTriggerPressed` GameObject in the Unity scene that allows us to get a `Boolean Action` out of when the Left Controller Trigger axis is squeezed by at least 75%? Use the [Converting A Float Action To A Boolean Action](../../Actions/ConvertingAFloatActionToABooleanAction/README.md) guide for help. It will help you if you rename the `GameObject` GameObject in the Unity Hierarchy to something more descriptive, such as `RightTriggerAxis` as the role of that GameObject is to report the axis values from the Right Controller Trigger.
+> Challenge: Can you set up a `LeftTriggerPressed` GameObject in the Unity scene that allows us to get a `Boolean Action` out of when the Left Controller Trigger axis is squeezed by at least 75%? Use the [Converting A Float Action To A Boolean Action](../../Actions/ConvertingAFloatActionToABooleanAction/README.md) guide for help. It is now helpful to rename the `GameObject` GameObject in the Unity Hierarchy to something more descriptive, such as `RightTriggerAxis` as the role of that GameObject is to report the axis values from the Right Controller Trigger.
 
 Now we should have a `LeftTriggerPressed` GameObject in the Unity Hierarchy window and we can drag and drop this `LeftTriggerPressed` GameObject into the `Grab Action` parameter on the `Interactor Facade` component.
 
