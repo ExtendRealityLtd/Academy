@@ -88,6 +88,8 @@ body {
   }
 
   #banner {
+    position: relative;
+    top: 0px;
     right: 0;
     margin-right: 0px;
     background-color: $color-pig-storm;
@@ -130,7 +132,7 @@ body {
     nav {
       width: $menu-width;
       margin-left: $side-margin-left;
-      top: 50px;
+      top: 110px;
 
       @media print, screen and (max-width: 1300px) {
         margin-left: $sml-side-margin-left;
