@@ -52,6 +52,7 @@ body {
   }
 
   header {
+    display: none;
     padding: 25px 0px 40px 0px;
     background-image: none;
     background-color: $color-pig-storm;
@@ -81,7 +82,7 @@ body {
 
       &:before {
         visibility: visible;
-        content: "VRTK Academy\a";
+        content: "Academy\a";
       }
     }
   }
@@ -89,7 +90,7 @@ body {
   #banner {
     right: 0;
     margin-right: 0px;
-    background-color: $color-pig-pink;
+    background-color: $color-pig-storm;
     border: none;
     text-align: center;
 
@@ -129,6 +130,7 @@ body {
     nav {
       width: $menu-width;
       margin-left: $side-margin-left;
+      top: 50px;
 
       @media print, screen and (max-width: 1300px) {
         margin-left: $sml-side-margin-left;
@@ -144,6 +146,7 @@ body {
     section {
       width: $content-width - ($content-padding * 2);
       background-color: $color-master-background;
+      margin-top: 30px;
 
       h1 {
         font-size: 30px;

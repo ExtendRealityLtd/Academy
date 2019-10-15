@@ -2,33 +2,33 @@
 
 ## Welcome
 
-The VRTK Academy is a curriculum of educational content to provide a complete understanding of VRTK and how to utilize it to build great solutions for spatial computing.
+The Academy is a curriculum of educational content to provide a complete understanding of the Extend Reality suite of solutions and how to utilize them to build great solutions for spatial computing.
 
-The educational content is aimed at all levels from complete beginners to advanced developers to provide a friendly learning curve to fully understand all that is capable with VRTK.
+The educational content is aimed at all levels from complete beginners to advanced developers to provide a friendly learning curve to fully understand all that is capable with the solutions at hand.
 
 ## Documentation
 
 ### How-to Guides
 
-Step by step instructions on how to set up specific features offered by VRTK.
+Step by step instructions on how to set up specific features.
 
 * [View How-to Guides](Documentation/HowToGuides/README.md)
 
 ### Tutorials
 
-Small to medium projects that go from an empty state to a completed goal that shows how to use features within VRTK to build specific solutions.
+Small to medium projects that go from an empty state to a completed goal that shows how to use features to build specific solutions.
 
 * [View Tutorials](Documentation/Tutorials/README.md)
 
 ### Explanations
 
-Common problems and solutions in spatial computing explained along with how VRTK can be utilized to overcome issues with little effort. They also provide an insight into the inner workings of the VRTK features.
+Common problems and solutions in spatial computing explained along with how Extend Reality solutions can be utilized to overcome issues with little effort. They also provide an insight into the inner workings of the underlying features.
 
 * [View Explanations](Documentation/Explanations/README.md)
 
 ### Reference
 
-API documentation for the code-base.
+API documentation for solution code-bases.
 
 * [View Reference](Documentation/Reference/README.md)
 
