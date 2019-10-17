@@ -30,7 +30,7 @@ A Straight Pointer is useful for picking out a location with precision especiall
 
 ### Step 1
 
-Expand the VRTK directory in the Unity Project window until the `VRTK -> Prefabs -> Pointers` directory is visible then drag and drop the `ObjectPointer.Straight` prefab into the Hierarchy window.
+Expand the VRTK Prefabs Package directory in the Unity Project window until the `Packages -> VRTK Prefabs -> Pointers` directory is visible then drag and drop the `ObjectPointer.Straight` prefab into the Hierarchy window.
 
 ![Drag Straight Object Pointer To Hierarchy](assets/images/DragStraightObjectPointerToHierarchy.png)
 
