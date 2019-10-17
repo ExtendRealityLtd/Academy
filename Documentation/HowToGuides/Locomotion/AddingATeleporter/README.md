@@ -32,7 +32,7 @@ There are two main types of teleporting:
 
 ### Step 1
 
-Expand the VRTK directory in the Unity Project window until the `VRTK -> Prefabs -> Locomotion -> Teleporters` directory is visible to show the two current teleport choices of `Teleporter.Dash` and `Teleporter.Instant`. Both of these options work in a similar way and provide the same public API into the underlying prefab. For this example, we'll use the `Teleporter.Instant` prefab. Drag and drop the `Teleporter.Instant` prefab into the Hierarchy window.
+Expand the VRTK Prefabs Package directory in the Unity Project window until the `Packages -> VRTK Prefabs -> Locomotion -> Teleporters` directory is visible to show the two current teleport choices of `Teleporter.Dash` and `Teleporter.Instant`. Both of these options work in a similar way and provide the same public API into the underlying prefab. For this example, we'll use the `Teleporter.Instant` prefab. Drag and drop the `Teleporter.Instant` prefab into the Hierarchy window.
 
 ![Drag Teleporter Instant To Hierarchy](assets/images/DragTeleporterInstantToHierarchy.png)
 
