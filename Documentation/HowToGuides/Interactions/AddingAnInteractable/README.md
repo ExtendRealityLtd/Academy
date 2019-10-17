@@ -43,7 +43,7 @@ Create a new `Cube` Unity 3D Object by selecting `Main Menu -> GameObject -> 3D 
 
 ### Step 2
 
-Expand the VRTK directory in the Unity Project window until the `VRTK -> Prefabs -> Interactions -> Interactables` directory is visible then drag and drop the `Interactable.Primary_Grab.Secondary_Swap` prefab into the Unity Hierarchy window.
+Expand the VRTK Prefabs Package directory in the Unity Project window until the `Packages -> VRTK Prefabs -> Interactions -> Interactables` directory is visible then drag and drop the `Interactable.Primary_Grab.Secondary_Swap` prefab into the Unity Hierarchy window.
 
 ![Drag Interactable Into Hierarchy](assets/images/DragInteractableIntoHierarchy.png)
 
