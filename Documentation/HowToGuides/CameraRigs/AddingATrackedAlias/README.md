@@ -27,7 +27,7 @@ This is useful if you want to support multiple SDK Camera Rigs in your scene but
 
 ### Step 1
 
-Expand the VRTK directory in the Unity Project window until the `VRTK -> Prefabs -> CameraRig -> TrackedAlias` directory is visible then drag and drop the `TrackedAlias` prefab into the Hierarchy window.
+Expand the VRTK Prefabs Package directory in the Unity Project window until the `Packages -> VRTK Prefabs -> CameraRig -> TrackedAlias` directory is visible then drag and drop the `TrackedAlias` prefab into the Hierarchy window.
 
 ![Drag TrackedAlias To Hierarchy](assets/images/DragTrackedAliasToHierarchy.png)
 

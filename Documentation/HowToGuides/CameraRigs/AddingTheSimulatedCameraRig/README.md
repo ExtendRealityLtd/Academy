@@ -28,7 +28,7 @@ The outcome of this guide is to learn how to add the Simulated CameraRig prefab 
 
 ### Step 1
 
-Expand the VRTK directory in the Unity Project window until the `VRTK -> Prefabs -> CameraRig -> SimulatedCameraRig` directory is visible and select the `SimulatedCameraRig` directory so the contents are displayed.
+Expand the VRTK Prefabs Package directory in the Unity Project window until the `Prefabs -> VRTK Prefabs -> CameraRig -> SimulatedCameraRig` directory is visible and select the `SimulatedCameraRig` directory so the contents are displayed.
 
 ![Unity Project Window](assets/images/UnityProjectWindow.png)
 

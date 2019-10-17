@@ -40,7 +40,7 @@ This will form the basic floor of the virtual world and provide a way of testing
 
 ### Step 2
 
-Expand the VRTK directory in the Unity Project window until the `VRTK -> Prefabs -> CameraRig -> UnityXRCameraRig -> InputMappings` directory is visible then drag and drop the relevant controller prefabs into the scene. For this example, drag the `UnityXR.OpenVR.LeftController` prefab and drag the `UnityXR.OpenVR.RightController` prefab into the Hierarchy window.
+Expand the VRTK Prefabs Package directory in the Unity Project window until the `Packages VRTK Prefabs -> CameraRig -> UnityXRCameraRig -> InputMappings` directory is visible then drag and drop the relevant controller prefabs into the scene. For this example, drag the `UnityXR.OpenVR.LeftController` prefab and drag the `UnityXR.OpenVR.RightController` prefab into the Hierarchy window.
 
 > Note: The OpenVR Input Mappings provide the base buttons available on the HTC Vive wand controller and do not include any axis data such as touchpad, trigger or grip press as these are not defined by default by the Unity Input Manager.
 

@@ -30,7 +30,7 @@ The Curved Pointer is a popular choice when creating a teleport locomotion featu
 
 ### Step 1
 
-Expand the VRTK directory in the Unity Project window until the `VRTK -> Prefabs -> Pointers` directory is visible then drag and drop the `ObjectPointer.Curved` prefab into the Hierarchy window.
+Expand the VRTK Prefabs Package directory in the Unity Project window until the `Prefabs -> VRTK Prefabs -> Pointers` directory is visible then drag and drop the `ObjectPointer.Curved` prefab into the Hierarchy window.
 
 ![Drag Curved Object Pointer To Hierarchy](assets/images/DragCurvedObjectPointerToHierarchy.png)
 

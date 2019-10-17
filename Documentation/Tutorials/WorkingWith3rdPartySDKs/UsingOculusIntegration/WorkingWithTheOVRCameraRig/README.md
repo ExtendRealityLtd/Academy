@@ -23,7 +23,7 @@ The OVRCameraRig is a prefab from the Oculus Integration Unity Package that desc
 ## Prerequisites
 
 * [Oculus Integration](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022) has been downloaded and installed in the project.
-* A TrackedAlias is set up in the scene. See [Adding A TrackedAlias](../../../../../HowToGuides/CameraRigs/AddingATrackedAlias/README.md).
+* A TrackedAlias is set up in the scene. See [Adding A TrackedAlias](../../../../../Documentation/HowToGuides/CameraRigs/AddingATrackedAlias/README.md).
 
 ## Let's Start
 
