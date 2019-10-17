@@ -23,13 +23,13 @@ The outcome of this How-To Guide is to learn how to add the UnityXR CameraRig pr
 
 ## Prerequisites
 
-* Follow the [VRTK Getting Started] steps to add VRTK to your Unity project.
+* Add the [VRTK Prefabs] dependency to your Unity project.
 
 ## Let's Start
 
 ### Step 1
 
-Expand the VRTK directory in the Unity Project window until the `VRTK -> Prefabs -> CameraRig -> UnityXRCameraRig` directory is visible and select the `UnityXRCameraRig` directory so the contents are displayed.
+Expand the VRTK Prefabs Package directory in the Unity Project window until the `Packages -> VRTK Prefabs -> CameraRig -> UnityXRCameraRig` directory is visible and select the `UnityXRCameraRig` directory so the contents are displayed.
 
 ![Unity Project Window](assets/images/UnityProjectWindow.png)
 
@@ -61,4 +61,4 @@ Now you have a UnityXR CameraRig in your scene. If you play the Unity scene you 
 
 * [Adding A TrackedAlias](../AddingATrackedAlias/README.md)
 
-[VRTK Getting Started]: https://github.com/ExtendRealityLtd/VRTK#getting-started
+[VRTK Prefabs]: https://github.com/ExtendRealityLtd/VRTK.Prefabs#getting-started
