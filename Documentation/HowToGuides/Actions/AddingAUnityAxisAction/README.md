@@ -32,15 +32,13 @@ VRTK will ask via a pop up window on first load of the Unity project whether to 
 
 ### Step 1
 
-Confirm that the Unity Input Manager has some predefined axes set up by selecting `Main Menu -> Project Settings` then selecting `Input` from the left hand list in the `Project Settings` window.
+Set up the Unity Input Manager with some defined axis data by selecting `Main Menu -> Project Settings` then selecting `Input` from the left hand list in the `Project Settings` window.
 
-Expand the `Axes` collapsed item if necessary and confirm there are some VRTK axis entries.
+Expand the `Axes` collapsed item if necessary and create additional axes for each axis required. Refer to the [Unity XR Input Documentation] for the relevant axis mappings.
 
-![VRTK Axis Entries](assets/images/VRTKAxisEntries.png)
+For now, let's create a new axis called `VRTK_Axis10_RightTrigger` which will allow us to pick up the axis changes on the trigger of the right controller.
 
-If the VRTK axis entries don't appear, then the VRTK pop up window can be accessed by selecting `Main Menu -> Window -> VRTK -> Manage Input Mappings`.
-
-The VRTK axis input mappings relate to the standard axes outlined at the [Unity Input for OpenVR Controllers].
+![Create Right Trigger Axis](assets/images/CreateRightTriggerAxis.png)
 
 ### Step 2
 
@@ -65,7 +63,7 @@ Let's create a `Unity Axis 1D Action` component to track the press of the right 
 
 Create an Empty GameObject in the Unity Hierarchy then click the `Add Component` button and select the `Unity 1D Axis Action` component.
 
-In the `Axis Name` parameter of the `Unity 1D Axis Action` component and enter `VRTK_Axis10_RightTrigger` as the value. This is the predefined name associated with the right controller trigger axis as defined by the Unity Input Manager.
+In the `Axis Name` parameter of the `Unity 1D Axis Action` component and enter `VRTK_Axis10_RightTrigger` as the value. This is the predefined name we associated with the right controller trigger axis as defined by the Unity Input Manager.
 
 ![Set Axis Name To Right Trigger](assets/images/SetAxisNameToRightTrigger.png)
 
@@ -122,4 +120,4 @@ This is because when the trigger is not being touched at all, the axis value for
 * [Converting A Float Action To A Boolean Action](../ConvertingAFloatActionToABooleanAction/README.md)
 
 [Zinnia.Unity]: https://github.com/ExtendRealityLtd/Zinnia.Unity
-[Unity Input for OpenVR Controllers]: https://docs.unity3d.com/Manual/OpenVRControllers.html
+[Unity XR Input Documentation]: https://docs.unity3d.com/Manual/xr_input.html
