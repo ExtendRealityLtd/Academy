@@ -101,6 +101,7 @@ body {
     }
 
     .fork {
+	  background: none;
       position: relative !important;
       background-color: $color-pig-day;
       padding-top: 14px;
@@ -130,6 +131,7 @@ body {
     }
 
     nav {
+	  display: none;
       width: $menu-width;
       margin-left: $side-margin-left;
       top: 110px;
