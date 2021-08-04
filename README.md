@@ -1,9 +1,5 @@
 ![academy](https://user-images.githubusercontent.com/1029673/66832578-1a5a6800-ef52-11e9-9120-a8aea2361e5e.png)
 
-## Disclaimer
-
-This documentation is out of date and related to the deprecated [VRTK.Prefabs] repository. This documentation will be updated in due course to reflect the latest documentation that can be found on each Tilia package. The complete list of available Tilia packages, along with their up to date documentation can be viewed at [https://www.vrtk.io/tilia.html].
-
 ## Welcome
 
 The Academy is a curriculum of educational content to provide a complete understanding of the Extend Reality suite of solutions and how to utilize them to build great solutions for spatial computing.
@@ -24,26 +20,14 @@ Small to medium projects that go from an empty state to a completed goal that sh
 
 * [View Tutorials](Documentation/Tutorials/README.md)
 
-### Explanations
-
-Common problems and solutions in spatial computing explained along with how Extend Reality solutions can be utilized to overcome issues with little effort. They also provide an insight into the inner workings of the underlying features.
-
-* [View Explanations](Documentation/Explanations/README.md)
-
 ### Reference
 
 API documentation for solution code-bases.
 
 * [View Reference](Documentation/Reference/README.md)
 
-## Contributing
-
-We're not currently in a place where accepting contributions would be helpful. But as soon as we're ready we'll let you know!
-
 ## License
 
 Documentation released under the [MIT License].
 
 [MIT License]: LICENSE.md
-[VRTK.Prefabs]: https://github.com/ExtendRealityLtd/VRTK.Prefabs
-[https://www.vrtk.io/tilia.html]: https://www.vrtk.io/tilia.html
