@@ -30,4 +30,4 @@ API documentation for solution code-bases.
 
 Documentation released under the [MIT License].
 
-[MIT License]: LICENSE.md
+[MIT License]: https://github.com/ExtendRealityLtd/Academy/blob/master/LICENSE
